@@ -13,7 +13,6 @@ def solution(id_list, report, k):
     for n in noti:
         if len(noti[n]) >= k:
             for reporter in noti[n]:
-                print(reporter)
                 answer[id_list.index(reporter)] += 1
     
     return answer
