@@ -1,3 +1,5 @@
+#폰켓몬
+
 def solution(nums):
     set_nums_len = len(set(nums))
     nums_half_len = int(len(nums)/2)
