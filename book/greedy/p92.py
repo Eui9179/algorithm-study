@@ -9,7 +9,7 @@ def solution(nums:list, m, k):
     max2 = max(nums)
     nums.remove(max2)
     
-    result = (max1 * ((m//k)*k)) + (max2 * (m%k) )
+    result = (max1 * ((m // k) * k)) + (max2 * (m % k) )
     print(result)
     
-solution([3,4,3,4,3],8,2)
+solution([3,4,3,4,3], 8, 2)
