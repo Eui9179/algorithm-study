@@ -1,22 +1,10 @@
 # 숫자 카드 게임
 
-'''
-3 3
-3 1 2
-4 1 4
-2 2 2
-'''
-
-'''
-2 4
-7 3 1 8
-3 3 3 4
-'''
-arr = '''3 1 2
+arr1 = '''3 1 2
 4 1 4
 2 2 2'''
 
-arr = '''7 3 1 8
+arr2 = '''7 3 1 8
 3 3 3 4'''
 
 def solution(arr: str):
@@ -30,5 +18,5 @@ def solution(arr: str):
     
     print(result)
     
-solution(arr)
+solution(arr2)
     
