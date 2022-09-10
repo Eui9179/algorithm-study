@@ -3,30 +3,37 @@ python 문자열 자르기
 "string"[0:3]
 '''
 
-def solution2(number: str, k: int):
-    answer = ''
-    
+def solution(number: str, k: int):
     num_list = [int(num) for num in number]
     index = 0
     
-    while k > 0:        
+    while k > 0:
         if index + k + 1 > len(num_list):
             break
         
         comp_list = num_list[index: index + k + 1]
         
-        max_num = max(comp_list)
+        max_num = 0
         
-        if max_num == comp_list[0]:
-            index += 1
-        else:
-            del(num_list[index : index + comp_list.index(max_num)])
-            k -= comp_list.index(max_num)
+        for comp in comp_list:
+            if comp == 9:
+                max_num = 9
+                break
+            
+            if max_num < comp:
+                max_num = comp
+        
+        if max_num != comp_list[0]:
+            max_num_index = comp_list.index(max_num)
+            del(num_list[index : index + max_num_index])
+            k -= max_num_index
+            
+        index += 1
             
     if k > 0:
-        for i in range(k):
-            num_list.remove(min(num_list))
+        return number[:-k]
     
-    return answer.join([str(num) for num in num_list])
+    return ''.join([str(num) for num in num_list])
 
-print(solution2("123123",5))
+
+print(solution("12312334123",5))
