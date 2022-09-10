@@ -3,6 +3,8 @@ python 문자열 자르기
 "string"[0:3]
 '''
 
+# 큰 수 만들기
+
 def solution(number: str, k: int):
     num_list = [int(num) for num in number]
     index = 0
