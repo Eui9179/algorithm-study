@@ -1,4 +1,5 @@
 # 신고 결과 받기
+
 def solution(id_list, report, k):
 
     answer = [0 for i in range(len(id_list))]

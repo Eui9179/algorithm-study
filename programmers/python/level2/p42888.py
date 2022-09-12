@@ -1,5 +1,4 @@
 # 오픈 채팅방
-# kakao 2019 문제 1
 
 def solution(record):
     answer = []

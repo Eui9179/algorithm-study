@@ -1,3 +1,5 @@
+#체육복
+
 def solution(n:int, lost:list, reserve:list):
     _lost = sorted([l for l in lost if l not in reserve])
     _reserve = sorted([r for r in reserve if r not in lost])
