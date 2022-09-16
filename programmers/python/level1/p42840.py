@@ -12,7 +12,7 @@ def solution(answers):
     
     for i in range(len(answers)):
         if answers[i] == a_list[index[0]]:
-            count[0] += 1
+            count[0] += 1 
         
         if answers[i] == b_list[index[1]]:
             count[1] += 1
