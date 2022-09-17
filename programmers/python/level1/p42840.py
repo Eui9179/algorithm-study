@@ -33,12 +33,9 @@ def solution(answers):
     
     max_count = max(count)
     
-    if count[0] == max_count:
-        answer.append(1)
-    if count[1] == max_count:
-        answer.append(2)
-    if count[2] == max_count:
-        answer.append(3)
+    for i in range(len(count)):
+        if count[i] == max_count:
+            answer.append(i+1)
     
     return answer
 
