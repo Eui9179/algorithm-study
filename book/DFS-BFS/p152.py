@@ -3,17 +3,19 @@ from collections import deque
 def solution(all_path:str):
     answer = 1
     
+    # 경로 graph화
     path = all_path.split('\n')
     graph = [[int(g) for g in p] for p in path]
+    
+    # 종착지
     n = len(graph)
     m = len(graph[0])
     
+    # 출발지
     graph[0][0] = 0
     queue = deque([(0,0)])
     
     while queue:
-        print(list(queue))
-        
         q = queue.popleft()
         
         is_append = False
