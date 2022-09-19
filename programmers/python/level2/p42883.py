@@ -1,9 +1,16 @@
-'''
-python 문자열 자르기
-"string"[0:3]
-'''
-
 # 큰 수 만들기
+
+'''
+<자리를 바꾸지 않고 k 자리만큼 숫자를 빼서 가장 큰 수 만들기>
+[parameter] 큰 숫자(string),몇자리를 빼야하는지
+[return] 숫자 string
+
+[풀이방법]
+숫자 string을 한 숫자씩 배열로 맵핑
+index ~ k+1 까지 숫자배열 추출
+추출한 배열 중 가장 큰 수 기준으로 앞 숫자들을 다 없앰
+없앤 만큼 k에서 빼줌
+'''
 
 def solution(number: str, k: int):
     num_list = [int(num) for num in number]
@@ -38,4 +45,4 @@ def solution(number: str, k: int):
     return ''.join([str(num) for num in num_list])
 
 
-print(solution("12312334123",5))
+print(solution("293",2))
