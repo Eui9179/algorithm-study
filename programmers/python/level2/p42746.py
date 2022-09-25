@@ -7,106 +7,98 @@ def solution(numbers):
     for number in numbers:
         s_number = str(number)
         num_map[s_number[0]].append(s_number)
-    
+        
     for num_key in num_map:
-        if len(num_map[num_key]) > 1:
-            tmp = [num_map[num_key].pop(0)]
+        eq_nums = num_map[num_key]
+        
+        if not eq_nums:
+            continue
+        
+        if len(eq_nums) > 1:
+            sorted_nums = [eq_nums.pop(0)]
             
-            for num in num_map[num_key]:
-                is_append = False
+            for num in eq_nums:
+                is_pass = False
                 
-                for i in range(len(tmp)):
-                    if is_append:
+                for i in range(len(sorted_nums)):
+                    if int(num + sorted_nums[i]) >= int(sorted_nums[i] + num):
+                        
+                        sorted_nums.insert(i, num)
+                        is_pass = True
                         break
                     
-                    t = tmp[i]
-                    
-                    if len(num) < len(t):
-                        for j in range(1, len(num)):
-                            numj = int(num[j])
-                            tj = int(t[j])
-                            
-                            if numj > tj: # 들어온 값이 클때
-                                tmp.insert(i, num)
-                                is_append = True
-                                break
-                        
-                        last_digit = int(t[len(num)])
-                          
-                        if is_append:
-                            pass
-                        
-                        elif last_digit < int(num[0]):
-                            tmp.insert(i, num)
-                            is_append = True
-                        
-                        elif last_digit == int(num[0]):
-                            for n in num:
-                                if last_digit < int(n):
-                                    tmp.insert(i, num)
-                                    is_append = True
-                                    break
-                    
-                    elif  len(t) < len(num):
-                        for j in range(1, len(t)):
-                            numj = int(num[j])
-                            tj = int(t[j])
-                            
-                            if numj > tj: # 들어올 값이 클때
-                                tmp.insert(i, num)
-                                is_append = True
-                                break
-                            
-                        last_digit = int(num[len(t)])
-                        if is_append:
-                            pass
-                            
-                        elif last_digit > int(t[0]): # 들어올 값이 클때
-                            tmp.insert(i, num)
-                            is_append = True
-                                
-                        elif last_digit == int(t[0]):
-                            for t_num in t:
-                                if last_digit > int(t_num):
-                                    tmp.insert(i, num)
-                                    is_append = True
-                                    break
-                            
-                    elif len(t) == len(num):
-                        if int(t) == int(num):
-                            tmp.insert(i, num)
-                            is_append = True
-                            
-                        else:
-                            for j in range(1, len(t)):
-                                numj = int(num[j])
-                                tj = int(t[j])
-                                
-                                if numj > tj:
-                                    tmp.insert(i, num)
-                                    is_append = True
-                                    break
-                                
-                if not is_append:
-                    tmp.append(num)
-                    is_append = True
-                    
-            for t in tmp:
-                answer += t
+                if not is_pass:
+                    sorted_nums.append(num)
+            for sn in sorted_nums:
+                answer += sn
         else:
-            for num in num_map[num_key]:
-                answer += num
-        
-    i = 0
+            answer += eq_nums[0]
+    
     count = 0
-    while i < len(answer)-1:
-        if answer[i] != '0':
-            break
-        else:
+    
+    for i in range(len(answer) - 1):
+        if answer[i] == '0':
             count += 1
-        i += 1
+        else: break
+    
+    return answer[count:]
+    
+                    
+            
         
-    return answer[count:len(answer)]
+        
+        # if len(num_map[num_key]) > 1:
+            
+            
+            # tmp = [num_map[num_key].pop(0)]
+            
+            # for num in num_map[num_key]:
+                # is_pass = False
+                
+                # for i in range(len(tmp)):
+                    # if is_pass:
+                    #     break
+                    
+                    # t = tmp[i] # 원래 들어 있던 값
+                    
+                    # for j in range(1, min(len(num), len(t))):
+                    #     if int(num[j]) > int(t[j]): # 들어온 값이 클때
+                    #         tmp.insert(i, num)
+                    #         is_pass = True
+                    #         break
+                        
+                    #     elif int(num[j]) < int(t[j]):
+                    #         is_pass = True
+                    #         break
+                    #     # 232 23
+                        
+                    # if not is_pass:
+                    #     comp_a = int(num + t)
+                    #     comp_b = int(t + num)
+                        
+                    #     if comp_a > comp_b:
+                    #         tmp.insert(i, num)
+                                
+                # if not is_pass:
+                #     tmp.append(num)
+                #     is_pass = True
+                    
+            # for t in tmp:
+            #     answer += t
+        # else:
+        #     for num in num_map[num_key]:
+        #         answer += num
+        
+    # i = 0
+    # count = 0
+    # while i < len(answer)-1:
+    #     if answer[i] != '0':
+    #         break
+    #     else:
+    #         count += 1
+    #     i += 1
+        
+    # return answer[count:len(answer)]
 
 '''
 [232,23] : 23/232 : (23232)
@@ -115,4 +107,4 @@ def solution(numbers):
 23, 232, 21, 212
 '''
 
-print(solution([23, 232, 21, 212]))
+print(solution([0,0,0,0]))
