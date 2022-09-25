@@ -1,4 +1,19 @@
-# 미해결
+'''
+<배열로 넘어온 수를 조합해서 큰 수로 만듬>
+[parameter] 숫자 배열
+[return] 숫자 문자열
+
+[풀이 방법]
+숫자를 앞자리 기준으로
+{
+    '0': [0]
+    '1': [1, 123, 12]
+    '2': [232, 23]
+    ...
+}
+
+맵핑해주고 하나 이상의 숫자를 각각 정렬해주고 순서대로 넣는다.
+'''
 
 def solution(numbers):
     answer = ''
@@ -22,7 +37,6 @@ def solution(numbers):
                 is_pass = False
                 
                 for i in range(len(sorted_nums)):
-                    
                     if int(num + sorted_nums[i]) >= int(sorted_nums[i] + num):
                         sorted_nums.insert(i, num)
                         is_pass = True
@@ -30,6 +44,7 @@ def solution(numbers):
                     
                 if not is_pass:
                     sorted_nums.append(num)
+                    
             for sn in sorted_nums:
                 answer += sn
         else:
