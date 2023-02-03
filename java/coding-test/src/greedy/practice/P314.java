@@ -1,22 +1,20 @@
 package greedy.practice;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Scanner;
 
 // 1 1 2 3 9
 //
 public class P314 {
     public static int solution(ArrayList<Integer> coins) {
-//        Collections.sort(coins, Comparator.reverseOrder());
+        Collections.sort(coins, Comparator.reverseOrder());
         int answer = 1;
-        while (true) {
-            if (calc(answer, coins)) {
-                answer++;
-            } else {
-                System.out.println(answer);
-                return answer;
-            }
+        while (calc(answer, coins)) {
+            answer++;
         }
+        return answer;
     }
     public static boolean calc(int num, ArrayList<Integer> coins) {
         for (int coin : coins) {
@@ -36,6 +34,6 @@ public class P314 {
             int coin = sc.nextInt();
             coins.add(coin);
         }
-        solution(coins);
+        System.out.println(solution(coins));
     }
 }
