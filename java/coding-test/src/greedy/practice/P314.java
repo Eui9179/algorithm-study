@@ -5,8 +5,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
 
-// 1 1 2 3 9
-//
 public class P314 {
     public static int solution(ArrayList<Integer> coins) {
         Collections.sort(coins, Comparator.reverseOrder());
@@ -18,6 +16,8 @@ public class P314 {
     }
     public static boolean calc(int num, ArrayList<Integer> coins) {
         for (int coin : coins) {
+            System.out.println("coin = " + coin);
+            System.out.println("num = " + num);
             if (num < coin) continue;
             num -= coin;
             if (num < 0) return false;
