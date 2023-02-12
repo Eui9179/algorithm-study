@@ -88,22 +88,27 @@ public class P316{
     }
 
     public static void main(String[] args) {
-        P316 p = new P316();
-//        int[] foodTimes = {1, 3, 2};
-//        int[] foodTimes = {3,1,1,1,2,4,3};
-//        int[] foodTimes = {4, 1, 1, 5};
-        int[] food_times = {1, 1, 0, 1, 0, 1};
+//        P316 p = new P316();
+////        int[] foodTimes = {1, 3, 2};
+////        int[] foodTimes = {3,1,1,1,2,4,3};
+////        int[] foodTimes = {4, 1, 1, 5};
+//        int[] food_times = {1, 1, 0, 1, 0, 1};
+//
+//        int k = 4;
+////        System.out.println(p.solution(foodTimes, k));
+//
+//        ArrayList<Integer> foodTimes = new ArrayList<>();
+//        for (int food_time : food_times) {
+//            foodTimes.add(food_time);
+//        }
+//
+//        foodTimes.removeAll(Arrays.asList(Integer.valueOf(0)));
+//        System.out.println("foodTimes = " + foodTimes);
+        ArrayList<String> arrayList = new ArrayList<>(Arrays.asList("hello", "java", "java"));
+        ArrayList<String> deletedList = new ArrayList<>(Arrays.asList("java"));
 
-        int k = 4;
-//        System.out.println(p.solution(foodTimes, k));
-
-        ArrayList<Integer> foodTimes = new ArrayList<>();
-        for (int food_time : food_times) {
-            foodTimes.add(food_time);
-        }
-
-        foodTimes.removeAll(Arrays.asList(Integer.valueOf(0)));
-        System.out.println("foodTimes = " + foodTimes);
+        arrayList.removeAll(deletedList); //["hello"]
+        System.out.println("arrayList = " + arrayList);
     }
 
 }
