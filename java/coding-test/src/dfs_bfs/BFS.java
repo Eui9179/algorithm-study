@@ -2,28 +2,31 @@ package dfs_bfs;
 
 import java.util.*;
 
-public class DFS {
-    public static void dfsFunc(Map<String, ArrayList<String>> graph, String startVertex) {
+public class BFS {
+    public static void bfsFunc(Map<String, ArrayList<String>> graph, String startVertex) {
         ArrayList<String> stack = new ArrayList<>();
         ArrayList<String> visited = new ArrayList<>();
 
         stack.add(startVertex);
 
         while (stack.size() > 0) {
-            String vert = stack.remove(stack.size() - 1);
-            if (!visited.contains(vert)) {
-                visited.add(vert);
-                stack.addAll(graph.get(vert));
+            String vertex = stack.remove(0);
+
+            if (!visited.contains(vertex)) {
+                visited.add(vertex);
+                stack.addAll(graph.get(vertex));
             }
         }
         System.out.println("visited = " + visited);
     }
+
     public static void main(String[] args) {
         Map<String, ArrayList<String>> graph = new HashMap<>();
         initMap(graph);
 
-        dfsFunc(graph, "A");
+        bfsFunc(graph, "A");
     }
+
     public static void initMap(Map<String, ArrayList<String>> graph) {
         graph.put("A", new ArrayList<>(Arrays.asList("B", "C")));
         graph.put("B", new ArrayList<>(Arrays.asList("A", "D")));

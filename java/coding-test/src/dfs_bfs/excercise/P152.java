@@ -1,4 +1,4 @@
-package dfs_bfs;
+package dfs_bfs.excercise;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
