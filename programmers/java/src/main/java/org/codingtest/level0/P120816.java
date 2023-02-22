@@ -1,5 +1,4 @@
-package level0;
-
+package org.codingtest.level0;
 public class P120816 {
     public static int solution(int slice, int n) {
         // 7조각이라면?

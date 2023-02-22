@@ -1,5 +1,4 @@
-package level1;
-
+package org.codingtest.level1;
 import java.util.*;
 
 public class P150370 {

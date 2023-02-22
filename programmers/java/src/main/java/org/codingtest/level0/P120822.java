@@ -1,5 +1,4 @@
-package level0;
-
+package org.codingtest.level0;
 public class P120822 {
     public static String solution(String str) {
         StringBuilder sb = new StringBuilder();

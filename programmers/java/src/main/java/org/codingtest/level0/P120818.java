@@ -1,5 +1,4 @@
-package level0;
-
+package org.codingtest.level0;
 public class P120818 {
     public static int solution(int price) {
         double discount = 1.0;
