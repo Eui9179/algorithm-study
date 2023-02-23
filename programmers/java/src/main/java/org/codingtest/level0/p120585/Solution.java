@@ -1,6 +1,6 @@
-package org.codingtest.level0;
+package org.codingtest.level0.p120585;
 import java.util.Arrays;
-public class P120585 {
+public class Solution {
     public static int solution(int[] array, int height) {
         return (int)Arrays.stream(array).filter(h -> h > height).count();
     }

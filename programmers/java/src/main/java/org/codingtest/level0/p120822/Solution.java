@@ -1,5 +1,5 @@
-package org.codingtest.level0;
-public class P120822 {
+package org.codingtest.level0.p120822;
+public class Solution {
     public static String solution(String str) {
         StringBuilder sb = new StringBuilder();
         sb.append(str);

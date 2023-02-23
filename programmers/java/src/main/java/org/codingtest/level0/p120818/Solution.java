@@ -1,5 +1,5 @@
-package org.codingtest.level0;
-public class P120818 {
+package org.codingtest.level0.p120818;
+public class Solution {
     public static int solution(int price) {
         double discount = 1.0;
         if (price >= 500000) {
