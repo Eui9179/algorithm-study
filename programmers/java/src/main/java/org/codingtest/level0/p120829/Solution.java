@@ -9,6 +9,8 @@ public class Solution {
         } else if (angle > 90) {
             return 3;
         }
+
         return 1;
+
     }
 }
