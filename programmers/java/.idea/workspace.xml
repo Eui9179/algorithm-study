@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +83,11 @@
   </component>
   <component name="RunManager" selected="Application.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120906.Solution" />
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120845.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level0.p120906.*" />
+          <option name="PATTERN" value="org.codingtest.level0.p120845.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,64 +95,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java.test" />
+    <configuration name="org.codingtest.level0.p120823.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120823.Solution" />
+      <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level0.p120898.*" />
+          <option name="PATTERN" value="org.codingtest.level0.p120823.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.codingtest.level0.p120898" />
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120898.Tests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java.test" />
+    <configuration name="org.codingtest.level0.p120850.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120850.Solution" />
+      <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level0.p120829.*" />
+          <option name="PATTERN" value="org.codingtest.level0.p120850.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.codingtest.level0.p120829" />
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120829.Tests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.t1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java.test" />
+    <configuration name="org.codingtest.level0.p120892.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120892.Solution" />
+      <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level0.p120898.*" />
+          <option name="PATTERN" value="org.codingtest.level0.p120892.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.codingtest.level0.p120898" />
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120898.Tests" />
-      <option name="METHOD_NAME" value="t1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.t2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java.test" />
+    <configuration name="org.codingtest.level0.p120893.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120893.Solution" />
+      <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level0.p120898.*" />
+          <option name="PATTERN" value="org.codingtest.level0.p120893.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.codingtest.level0.p120898" />
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120898.Tests" />
-      <option name="METHOD_NAME" value="t2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.Tests (1)" />
-        <item itemvalue="JUnit.Tests.t2 (1)" />
-        <item itemvalue="JUnit.Tests.t1 (1)" />
-        <item itemvalue="JUnit.Tests" />
+        <item itemvalue="Application.org.codingtest.level0.p120823.Solution" />
+        <item itemvalue="Application.org.codingtest.level0.p120850.Solution" />
+        <item itemvalue="Application.org.codingtest.level0.p120892.Solution" />
+        <item itemvalue="Application.org.codingtest.level0.p120893.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +167,7 @@
       <updated>1677039694010</updated>
       <workItem from="1677039695070" duration="10881000" />
       <workItem from="1677110670018" duration="289000" />
-      <workItem from="1677111784511" duration="11028000" />
+      <workItem from="1677111784511" duration="21501000" />
     </task>
     <servers />
   </component>
