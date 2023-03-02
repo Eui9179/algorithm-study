@@ -91,20 +91,7 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.level0.p120871.Solution">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120882.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.level0.p120882.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.codingtest.level0.p120812.Solution">
     <configuration name="org.codingtest.level0.P120880.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.P120880.Solution" />
       <module name="java.main" />
@@ -118,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.codingtest.level0.p120871.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120871.Solution" />
+    <configuration name="org.codingtest.level0.p120812.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120812.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level0.p120871.*" />
+          <option name="PATTERN" value="org.codingtest.level0.p120812.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +118,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.codingtest.level0.p120878.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120878.Solution" />
+    <configuration name="org.codingtest.level0.p120863.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120863.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level0.p120878.*" />
+          <option name="PATTERN" value="org.codingtest.level0.p120863.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.codingtest.level0.p120871.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.p120871.Solution" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.level0.p120871.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.level0.p120812.Solution" />
+        <item itemvalue="Application.org.codingtest.level0.p120863.Solution" />
         <item itemvalue="Application.org.codingtest.level0.p120871.Solution" />
         <item itemvalue="Application.org.codingtest.level0.P120880.Solution" />
         <item itemvalue="Application.org.codingtest.level0.p120921.Solution" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.org.codingtest.level0.p120878.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +187,7 @@
       <workItem from="1677457270784" duration="22215000" />
       <workItem from="1677543356931" duration="20838000" />
       <workItem from="1677686024534" duration="1094000" />
-      <workItem from="1677733109184" duration="4075000" />
+      <workItem from="1677733109184" duration="9955000" />
     </task>
     <servers />
   </component>
