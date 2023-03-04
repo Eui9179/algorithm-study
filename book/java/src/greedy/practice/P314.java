@@ -1,39 +1,23 @@
 package greedy.practice;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Scanner;
+import java.util.*;
 
 public class P314 {
-    public static int solution(ArrayList<Integer> coins) {
-        Collections.sort(coins, Comparator.reverseOrder());
-        int answer = 1;
-        while (calc(answer, coins)) {
-            answer++;
-        }
-        return answer;
-    }
-    public static boolean calc(int num, ArrayList<Integer> coins) {
-        for (int coin : coins) {
-            System.out.println("coin = " + coin);
-            System.out.println("num = " + num);
-            if (num < coin) continue;
-            num -= coin;
-            if (num < 0) return false;
-            else if (num == 0) return true;
-        }
-        return false;
-    }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        ArrayList<Integer> coins = new ArrayList<>();
+    public int solution(int[] nums) {
+        Integer[] inums = Arrays.stream(nums).boxed().toArray(Integer[]::new);
+        Arrays.sort(inums, Collections.reverseOrder());
+        int n;
 
-        int n = sc.nextInt();
-        for (int i = 0; i < n; i++) {
-            int coin = sc.nextInt();
-            coins.add(coin);
+        for (int i = 1; ; i++) {
+            n = i;
+            for (Integer num : inums) {
+                n -= num;
+                if (n == 0) break;
+                else if (n < 0) n += num;
+            }
+            if (n > 0) {
+                return i;
+            }
         }
-        System.out.println(solution(coins));
     }
 }

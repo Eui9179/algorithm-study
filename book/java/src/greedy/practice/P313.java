@@ -1,26 +1,20 @@
 package greedy.practice;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class P313 {
-    public static int solution(String s) {
-        int count0 = 0;
-        int count1 = 0;
+    public int solution(String s) {
+        int answer1 = s.length() - s.replace("10", "2").length();
+        int answer0 = s.length() - s.replace("01", "2").length();
 
-        for (int i = 0; i < s.length()-1; i++) {
-            if (s.charAt(i) != s.charAt(i + 1)) {
-                if (s.charAt(i) == '0') {
-                    count0++;
-                } else {
-                    count1++;
-                }
-            }
-        }
-        return Math.min(count0, count1);
+        if (s.charAt(s.length() - 1) == '1') answer1++;
+        else answer0++;
+
+        return Math.min(answer0, answer1);
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
-        System.out.println(solution(s));
+        System.out.println(new P313().solution(sc.next()));
     }
 }
