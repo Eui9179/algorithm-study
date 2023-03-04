@@ -13,7 +13,6 @@ public class P311 {
                 answer++;
             }
         }
-        System.out.println("answer = " + answer);
         return answer;
     }
 }

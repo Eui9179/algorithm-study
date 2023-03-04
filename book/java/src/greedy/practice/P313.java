@@ -12,9 +12,4 @@ public class P313 {
 
         return Math.min(answer0, answer1);
     }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println(new P313().solution(sc.next()));
-    }
 }

@@ -5,18 +5,15 @@ import java.util.*;
 public class P314 {
     public int solution(int[] nums) {
         Arrays.sort(nums);
-        int n;
 
-        for (int i = 1; ; i++) {
-            n = i;
-            for (Integer num : nums) {
-                n -= num;
-                if (n == 0) break;
-                else if (n < 0) n += num;
+        int answer = 1;
+
+        for (int num : nums) {
+            if (num > answer) {
+                break;
             }
-            if (n > 0) {
-                return i;
-            }
+            answer += num;
         }
+        return answer;
     }
 }
