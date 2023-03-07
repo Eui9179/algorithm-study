@@ -1,7 +1,7 @@
-package org.codingtest.level1;
+package org.codingtest.level1.p150370;
 import java.util.*;
 
-public class P150370 {
+public class Solution {
     public int[] solution(String today, String[] terms, String[] privacies) {
         List<Integer> result = new ArrayList<>();
         Map<String, Integer> termsMap = new HashMap<>();
@@ -53,7 +53,7 @@ public class P150370 {
     }
 
     public static void main(String[] args) {
-        new P150370().solution("2022.05.19", new String[]{"A 6", "B 12", "C 3"}, new String[]{"2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C"});
+        new Solution().solution("2022.05.19", new String[]{"A 6", "B 12", "C 3"}, new String[]{"2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C"});
 //        new level1.P150370().solution("2021.12.08", new String[]{"A 18"}, new String[]{"2020.06.08 A"});
 //        new level1.P150370().solution(
 //                "2020.01.01",
