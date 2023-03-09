@@ -1,4 +1,4 @@
-package org.codingtest.p120876;
+package org.codingtest.level0.p120876;
 
 import java.util.Arrays;
 

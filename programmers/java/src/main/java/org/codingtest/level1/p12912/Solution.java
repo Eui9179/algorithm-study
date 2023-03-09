@@ -1,6 +1,5 @@
 package org.codingtest.level1.p12912;
 
-import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 
 class Solution {
