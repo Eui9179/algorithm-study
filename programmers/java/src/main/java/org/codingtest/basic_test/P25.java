@@ -3,6 +3,7 @@ package org.codingtest.basic_test;
 import java.math.BigInteger;
 import java.util.ArrayList;
 
+// 1600851475143의 수 중 제일 큰 약수
 public class P25 {
     public static void main(String[] args) {
         System.out.println(solution());

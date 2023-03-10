@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/basic_test/P24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/basic_test/P24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/basic_test/P25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/basic_test/P25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/basic_test/P29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/basic_test/P29.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +94,7 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P25">
+  <component name="RunManager" selected="Application.P24">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.Main" />
       <module name="java.main" />
@@ -160,10 +162,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P25" />
         <item itemvalue="Application.P24" />
-        <item itemvalue="Application.P22" />
         <item itemvalue="Application.P29" />
+        <item itemvalue="Application.P25" />
+        <item itemvalue="Application.P22" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -194,23 +196,13 @@
       <workItem from="1678154933886" duration="2674000" />
       <workItem from="1678234287545" duration="5726000" />
       <workItem from="1678321343344" duration="3793000" />
-      <workItem from="1678421311109" duration="6538000" />
+      <workItem from="1678421311109" duration="7254000" />
+      <workItem from="1678428846453" duration="334000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/codingtest/basic_test/P22.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,5 +1,6 @@
 package org.codingtest.basic_test;
 
+// 1~23으로 다 나눠지는 가장 작은 수
 public class P29 {
     public static void main(String[] args) {
         int n = 23;
