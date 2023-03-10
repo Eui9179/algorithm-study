@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/level1/p12912/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/level1/p12912/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/p120876/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/level0/p120876/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,13 +92,13 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PolyTest.t3">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level1.p12947.Solution" />
+  <component name="RunManager" selected="Application.P25">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.Main" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level1.p12947.*" />
+          <option name="PATTERN" value="org.codingtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,76 +106,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java.test" />
+    <configuration name="P22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.basic_test.P22" />
+      <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level0.poly_test.*" />
+          <option name="PATTERN" value="org.codingtest.basic_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.codingtest.level0.poly_test" />
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.poly_test.PolyTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolyTest.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java.test" />
+    <configuration name="P24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.basic_test.P24" />
+      <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level0.poly_test.*" />
+          <option name="PATTERN" value="org.codingtest.basic_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.codingtest.level0.poly_test" />
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.poly_test.PolyTest" />
-      <option name="METHOD_NAME" value="t1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolyTest.t2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java.test" />
+    <configuration name="P25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.basic_test.P25" />
+      <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level0.poly_test.*" />
+          <option name="PATTERN" value="org.codingtest.basic_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.codingtest.level0.poly_test" />
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.poly_test.PolyTest" />
-      <option name="METHOD_NAME" value="t2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolyTest.t3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java.test" />
+    <configuration name="P29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.basic_test.P29" />
+      <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level0.poly_test.*" />
+          <option name="PATTERN" value="org.codingtest.basic_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.codingtest.level0.poly_test" />
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level0.poly_test.PolyTest" />
-      <option name="METHOD_NAME" value="t3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PolyTest.t3" />
-        <item itemvalue="JUnit.PolyTest" />
-        <item itemvalue="JUnit.PolyTest.t2" />
-        <item itemvalue="JUnit.PolyTest.t1" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.P25" />
+        <item itemvalue="Application.P24" />
+        <item itemvalue="Application.P22" />
+        <item itemvalue="Application.P29" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -206,11 +194,23 @@
       <workItem from="1678154933886" duration="2674000" />
       <workItem from="1678234287545" duration="5726000" />
       <workItem from="1678321343344" duration="3793000" />
+      <workItem from="1678421311109" duration="6538000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/codingtest/basic_test/P22.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
