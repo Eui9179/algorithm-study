@@ -91,22 +91,9 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.level1.p86051.Solution">
+  <component name="RunManager" selected="Application.org.codingtest.level1.p12969.Solution">
     <configuration name="P24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.basic_test.P24" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.basic_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.basic_test.P25" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
@@ -144,6 +131,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.codingtest.level1.p12969.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level1.p12969.Solution" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.level1.p12969.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.codingtest.level1.p86051.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.level1.p86051.Solution" />
       <module name="java.main" />
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.level1.p12969.Solution" />
         <item itemvalue="Application.org.codingtest.level1.p86051.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.P24" />
         <item itemvalue="Application.P29" />
-        <item itemvalue="Application.P25" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +199,8 @@
       <workItem from="1678668421802" duration="2994000" />
       <workItem from="1678755660426" duration="2802000" />
       <workItem from="1678868907387" duration="1582000" />
-      <workItem from="1678929442822" duration="2055000" />
+      <workItem from="1678929442822" duration="2680000" />
+      <workItem from="1679016047897" duration="2290000" />
     </task>
     <servers />
   </component>
