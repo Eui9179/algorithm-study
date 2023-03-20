@@ -6,4 +6,4 @@ def solution(t, p):
             answer += 1
     return answer 
 
-solution("500220839878", "7")
+solution("500220839878", "7") 
