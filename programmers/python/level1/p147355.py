@@ -4,6 +4,7 @@ def solution(t, p):
     for i in range(len(t) - p_len + 1):
         if int(t[i: i + p_len]) <= int(p):
             answer += 1
-    return answer 
+    return answer
 
-solution("500220839878", "7") 
+
+print(solution("500220839878", "7"))
