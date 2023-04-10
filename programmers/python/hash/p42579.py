@@ -31,4 +31,3 @@ def sum_data(arr):
     for a in arr:
         result += a[0]
     return result
-
