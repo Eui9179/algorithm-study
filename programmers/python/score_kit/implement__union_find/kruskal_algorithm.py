@@ -11,17 +11,13 @@ def find_parent(parent, x):
 
 
 def union_parent(parent, a, b):
-    print(a, " ", b)
     a = find_parent(parent, a)
     b = find_parent(parent, b)
-    print(a, " ", b)
 
     if a < b:
         parent[b] = a
     else:
         parent[a] = b
-    print(parent)
-    print()
 
 
 v = 7
