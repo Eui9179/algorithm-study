@@ -1,18 +1,17 @@
 from functools import cmp_to_key
 
 
-def solution(numbers):
+def solution(numbers: list):
     if sum(numbers) == 0:
         return '0'
-    num_str = [str(n) for n in numbers]
-    num_str.sort(reverse=True, key=cmp_to_key(compare))
-    return ''.join(num_str)
+    numbers_str = [str(n) for n in numbers]
+    numbers_str.sort(key=cmp_to_key(compare))
+
+    return ''.join(numbers_str)
 
 
-def compare(x, y):
-    if int(x + y) > int(y + x):
-        return 1
-    elif int(x + y) < int(y + x):
-        return -1
-    else:
-        return 0
+def compare(n1: str, n2: str):
+    return int(n2 + n1) - int(n1 + n2)
+
+
+solution([6, 10, 2])
