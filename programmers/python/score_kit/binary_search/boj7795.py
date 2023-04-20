@@ -5,27 +5,24 @@ def binary_search(a, b, left, right):
     if a < b[0]:
         return 0
 
+    result = 0
+
     while left <= right:
         mid = (left + right) // 2
         if b[mid] < a:
             left = mid + 1
-        elif b[mid] > a:
+        elif b[mid] >= a:
             right = mid - 1
-        else:
-            return mid
-    if b[left] < a:
-        return left + 1
+            result = mid
 
-    return left
+    return result
+
 
 test = int(input())
 cases = {}
 
 for i in range(test):
-    cases[i] = {
-        'a': [],
-        'b': []
-    }
+    cases[i] = {}
 
     an, bn = map(int, input().split())
     cases[i]['a'] = list(map(int, input().split()))
