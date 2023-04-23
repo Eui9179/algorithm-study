@@ -19,5 +19,3 @@ for left in range(n):
         answer += right - (left + 1)
 
 print(answer)
-
-
