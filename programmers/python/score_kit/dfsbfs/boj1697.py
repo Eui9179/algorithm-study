@@ -4,7 +4,6 @@ from collections import deque
 def bfs(n, k, dist):
     q = deque([n])
 
-    visited = [False] * 100001
     moves = ['+', '-', '*']
 
     while q:
@@ -12,10 +11,6 @@ def bfs(n, k, dist):
 
         if node == k:
             break
-        if visited[node]:
-            continue
-
-        visited[node] = True
 
         for move in moves:
             if move == '+':
@@ -37,4 +32,5 @@ n, k = map(int, input().split())
 
 dist = [0] * 100001
 bfs(n, k, dist)
+
 print(dist[k])
