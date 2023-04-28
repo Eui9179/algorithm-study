@@ -11,13 +11,9 @@ def gen_map(rectangle, n):
         i2 = rectangle[k - 1][3] * 2
         j2 = rectangle[k - 1][2] * 2
 
-        for j in range(j1, j2 + 1):
-            tmp[i1][j] = k
-            tmp[i2][j] = k
-
         for i in range(i1, i2 + 1):
-            tmp[i][j1] = k
-            tmp[i][j2] = k
+            for j in range(j1, j2 + 1):
+                tmp[i][j] = k
 
         maps.append(tmp)
 
@@ -64,7 +60,7 @@ def bfs(rectangle, n, map2, dist, start, end):
 
 
 def solution(rectangle, characterX, characterY, itemX, itemY):
-    n = 100
+    n = 101
 
     map2 = gen_map(rectangle, n)
 
@@ -72,3 +68,5 @@ def solution(rectangle, characterX, characterY, itemX, itemY):
 
     bfs(rectangle, n, map2, dist, (characterY * 2, characterX * 2), (itemY * 2, itemX * 2))
     return dist[itemY * 2][itemX * 2] // 2
+
+solution([[1,1,7,4],[3,2,5,5],[4,3,6,9],[2,6,8,8]], 1, 3, 8, 17)
