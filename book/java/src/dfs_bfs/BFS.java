@@ -3,7 +3,19 @@ package dfs_bfs;
 import java.util.*;
 
 public class BFS {
-    public static void bfsFunc(Map<String, ArrayList<String>> graph, String startVertex) {
+    public static Map<String, List<String>> genMap() {
+        return Map.of(
+                "A", List.of("B", "C"),
+                "B", List.of("D", "E"),
+                "C", List.of("F", "G"),
+                "D", List.of(),
+                "E", List.of(),
+                "F", List.of(),
+                "G", List.of()
+        );
+    }
+
+    public static void bfsFunc(Map<String, List<String>> graph, String startVertex) {
         ArrayList<String> stack = new ArrayList<>();
         ArrayList<String> visited = new ArrayList<>();
 
@@ -21,22 +33,7 @@ public class BFS {
     }
 
     public static void main(String[] args) {
-        Map<String, ArrayList<String>> graph = new HashMap<>();
-        initMap(graph);
-
+        Map<String, List<String>> graph = genMap();
         bfsFunc(graph, "A");
-    }
-
-    public static void initMap(Map<String, ArrayList<String>> graph) {
-        graph.put("A", new ArrayList<>(Arrays.asList("B", "C")));
-        graph.put("B", new ArrayList<>(Arrays.asList("A", "D")));
-        graph.put("C", new ArrayList<>(Arrays.asList("A", "G", "H", "I")));
-        graph.put("D", new ArrayList<>(Arrays.asList("B", "E", "F")));
-        graph.put("E", new ArrayList<>(Arrays.asList("D")));
-        graph.put("F", new ArrayList<>(Arrays.asList("D")));
-        graph.put("G", new ArrayList<>(Arrays.asList("C")));
-        graph.put("H", new ArrayList<>(Arrays.asList("C")));
-        graph.put("I", new ArrayList<>(Arrays.asList("C", "J")));
-        graph.put("J", new ArrayList<>(Arrays.asList("I")));
     }
 }
