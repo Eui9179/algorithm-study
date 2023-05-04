@@ -1,12 +1,7 @@
-alpha_pool = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-alpha = {alpha_pool[i]: i for i in range(len(alpha_pool))}
-
+alpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 def up_and_down(target):
-    if alpha[target] < alpha['Z'] - alpha[target]:
-        return alpha[target]
-    elif alpha[target] >= alpha['Z'] - alpha[target]:
-        return 1 + alpha['Z'] - alpha[target]
+    return min(alpha.index(target), alpha.index('Z') - alpha.index(target) + 1)
 
 
 def get_start_end(name):
@@ -56,5 +51,4 @@ def solution(name):
     return answer + move
 
 
-print(solution("BMOABA"))
-
+# print(solution("BMOABA"))
