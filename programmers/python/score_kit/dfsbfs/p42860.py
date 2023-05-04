@@ -40,7 +40,7 @@ def is_visited_all(visited, a_start, a_end):
     return False
 
 
-def dfs(n, graph, direction, a_start, a_end):
+def get_count_visited(n, graph, direction, a_start, a_end):
     result = 0
     start = 0
     next_node = [start]
@@ -94,9 +94,9 @@ def solution(name):
     a_start, a_end = get_start_end(n, chars)
 
     direction = 0
-    move = min(move, dfs(n, graph, direction, a_start, a_end))
+    move = min(move, get_count_visited(n, graph, direction, a_start, a_end))
 
     direction = 1
-    move = min(move, dfs(n, graph, direction, a_start, a_end))
+    move = min(move, get_count_visited(n, graph, direction, a_start, a_end))
 
     return answer + move
