@@ -1,4 +1,4 @@
-package implementations;
+package implementations.exercise;
 
 import java.util.HashMap;
 import java.util.List;
