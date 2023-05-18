@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/level2/p12985/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/level2/p12985/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2M4vVbljwvnpGbjxkKdNG2jSclx" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -92,7 +94,7 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.level2.p12980.Solution">
+  <component name="RunManager" selected="Application.org.codingtest.level2.p12953.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.level2.p42885.Solution" />
       <module name="java.main" />
@@ -106,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.codingtest.level2.p12973.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level2.p12973.Solution" />
+    <configuration name="org.codingtest.level2.p12953.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level2.p12953.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level2.p12973.*" />
+          <option name="PATTERN" value="org.codingtest.level2.p12953.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.level2.p12953.Solution" />
         <item itemvalue="Application.org.codingtest.level2.p12980.Solution" />
         <item itemvalue="Application.org.codingtest.level2.p12985.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.org.codingtest.level2.p12981.Solution" />
-        <item itemvalue="Application.org.codingtest.level2.p12973.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +206,7 @@
       <workItem from="1679016047897" duration="5622000" />
       <workItem from="1684222640105" duration="18651000" />
       <workItem from="1684296545272" duration="18515000" />
-      <workItem from="1684369164517" duration="6648000" />
+      <workItem from="1684369164517" duration="8058000" />
     </task>
     <servers />
   </component>
