@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/level2/p131701/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/level2/p131701/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,7 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.level2.p131701.Solution">
+  <component name="RunManager" selected="Application.org.codingtest.level2.p17680.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.level2.p76502.Solution" />
       <module name="java.main" />
@@ -114,19 +115,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.codingtest.level2.p12914.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.codingtest.level2.p12953.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level2.p12953.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.level2.p12953.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,13 +148,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.codingtest.level2.p17680.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level2.p17680.Solution" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.level2.p17680.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.level2.p17680.Solution" />
         <item itemvalue="Application.org.codingtest.level2.p131701.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.org.codingtest.level2.p138476.Solution" />
         <item itemvalue="Application.org.codingtest.level2.p12914.Solution" />
-        <item itemvalue="Application.org.codingtest.level2.p12953.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +209,7 @@
       <workItem from="1684296545272" duration="18515000" />
       <workItem from="1684369164517" duration="19326000" />
       <workItem from="1684462923478" duration="2848000" />
-      <workItem from="1684508632609" duration="1880000" />
+      <workItem from="1684508632609" duration="4200000" />
     </task>
     <servers />
   </component>
