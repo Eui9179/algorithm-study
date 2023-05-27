@@ -3,50 +3,21 @@ package org.codingtest.level2.p17677;
 import java.util.*;
 
 class Solution {
-
-    public static void main(String[] args) {
-        System.out.println(new Solution().solution("handshake", "shake hands"));
-    }
+    public final int NUM = 65536;
 
     public int solution(String str1, String str2) {
-        int A = 0, B = 0;
+        int A, B;
         Map<String, Integer> map1 = stringToMap(str1);
         Map<String, Integer> map2 = stringToMap(str2);
 
         if (map1.keySet().size() == 0 && map2.keySet().size() == 0) {
-            return 65536;
+            return NUM;
         }
 
-        Set<String> set1 = new HashSet<>(map1.keySet());
-        Set<String> set2 = new HashSet<>(map2.keySet());
+        A = retain(map1, map2);
+        B = add(map1, map2);
 
-        set1.retainAll(set2);
-
-        for (String key : set1) {
-            if (map1.containsKey(key) && map2.containsKey(key)) {
-                A += Math.min(map1.get(key), map2.get(key));
-            } else if (map1.containsKey(key)) {
-                A += map1.get(key);
-            } else {
-                A += map2.get(key);
-            }
-        }
-
-        Set<String> set3 = new HashSet<>(map1.keySet());
-        Set<String> set4 = new HashSet<>(map2.keySet());
-
-        set3.addAll(set4);
-
-        for (String key : set3) {
-            if (map1.containsKey(key) && map2.containsKey(key)) {
-                B += Math.max(map1.get(key), map2.get(key));
-            } else if (map1.containsKey(key)) {
-                B += map1.get(key);
-            } else {
-                B += map2.get(key);
-            }
-        }
-        return (int) (((float) A / (float) B) * 65536);
+        return (int) (((float) A / (float) B) * NUM);
     }
 
     public Map<String, Integer> stringToMap(String s) {
@@ -71,5 +42,34 @@ class Solution {
             }
         }
         return map;
+    }
+
+    public int retain(Map<String, Integer> map1, Map<String, Integer> map2) {
+        Set<String> setA = new HashSet<>(map1.keySet());
+        Set<String> setB = new HashSet<>(map2.keySet());
+        setA.retainAll(setB);
+        return setA.stream()
+                .map(key -> Math.min(map1.get(key), map2.get(key)))
+                .mapToInt(Integer::intValue)
+                .sum();
+    }
+
+    public int add(Map<String, Integer> map1, Map<String, Integer> map2) {
+        int result = 0;
+        Set<String> setA = new HashSet<>(map1.keySet());
+        Set<String> setB = new HashSet<>(map2.keySet());
+
+        setA.addAll(setB);
+
+        for (String key : setA) {
+            if (map1.containsKey(key) && map2.containsKey(key)) {
+                result += Math.max(map1.get(key), map2.get(key));
+            } else if (map1.containsKey(key)) {
+                result += map1.get(key);
+            } else {
+                result += map2.get(key);
+            }
+        }
+        return result;
     }
 }
