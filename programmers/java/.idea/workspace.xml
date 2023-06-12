@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/boj/b1015/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/boj/b1015/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/boj/b15970/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/boj/b15970/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +96,7 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.boj.b11652.Main">
+  <component name="RunManager" selected="Application.org.codingtest.boj.b15970.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.boj.b1015.Main" />
       <module name="java.main" />
@@ -117,6 +116,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.codingtest.boj.b11652.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.codingtest.boj.b15970.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.boj.b15970.Main" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.boj.b15970.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,26 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.codingtest.level2.p92341.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level2.p92341.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.level2.p92341.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.boj.b15970.Main" />
         <item itemvalue="Application.org.codingtest.boj.b11652.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.codingtest.level2.p1844.Solution" />
         <item itemvalue="Application.org.codingtest.level2.p12913.Solution" />
-        <item itemvalue="Application.org.codingtest.level2.p92341.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +221,7 @@
       <workItem from="1685643180419" duration="4704000" />
       <workItem from="1686071671096" duration="4295000" />
       <workItem from="1686504241121" duration="1517000" />
-      <workItem from="1686529512749" duration="7292000" />
+      <workItem from="1686529512749" duration="9479000" />
     </task>
     <servers />
   </component>
