@@ -8,20 +8,14 @@ public class Main {
         int n = sc.nextInt();
         int e;
         Node[] A = new Node[n];
-        String[] P = new String[n];
-
         for (int i = 0; i < n; i++) {
             e = sc.nextInt();
             A[i] = new Node(e, i);
         }
+        pro(A, n);
+    }
 
-        Node[] B = Arrays.copyOf(A, n);
-        Arrays.sort(B);
-
-        for (int i = 0; i < n; i++) {
-            P[B[i].index] = String.valueOf(i);
-        }
-
+    static void pro(Node[] A, int n) {
         /*
         B[0] = A[2]
         B[0] = A[B[0].index]
@@ -31,6 +25,12 @@ public class Main {
 
         P[B[i].index] = i;
          */
+        Arrays.sort(A);
+        String[] P = new String[n];
+
+        for (int i = 0; i < n; i++) {
+            P[A[i].index] = String.valueOf(i);
+        }
 
         System.out.println(String.join(" ", P));
     }
