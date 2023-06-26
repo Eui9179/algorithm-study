@@ -5,49 +5,55 @@ import java.util.*;
 class Solution {
     public int solution(String dirs) {
         int answer = 0;
-        List<int[]> record = new ArrayList<>();
-
-        Map<Character, int[]> commandMap = new HashMap<>();
-        commandMap.put('U', new int[]{0, 1});
-        commandMap.put('D', new int[]{0, -1});
-        commandMap.put('R', new int[]{1, 0});
-        commandMap.put('L', new int[]{-1, 0});
-
-        int[] start = new int[]{0, 0};
-        record.add(new int[]{start[0], start[1]});
-        int max = 5;
-        int min = -5;
-
-        char command;
-        int nextX, nextY;
+        int[] position = new int[]{0, 0};
+        Set<String> record = new HashSet<>();
+        Map<Character, int[]> commandMap = getCommandMap();
 
         for (int i = 0; i < dirs.length(); i++) {
-            if (start[0] < min || start[0] > max || start[1] < min || start[1] > max)
-                continue;
+            char command = dirs.charAt(i);
+            int nextX = position[0] + commandMap.get(command)[0];
+            int nextY = position[1] + commandMap.get(command)[1];
 
-            command = dirs.charAt(i);
-
-            if (isExist(record, start)) {
-                start[0] += commandMap.get(command)[0];
-                start[1] += commandMap.get(command)[1];
+            if (nextX < -5 || nextY < -5 || nextX > 5 || nextY > 5) {
                 continue;
             }
 
-            record.add(new int[]{start[0], start[1]});
-            start[0] += commandMap.get(command)[0];
-            start[1] += commandMap.get(command)[1];
+            if (isExist(record, position[0], position[1], nextX, nextY)) {
+                position[0] = nextX;
+                position[1] = nextY;
+                continue;
+            }
+
+            record.add(generateKey(position[0], position[1], nextX, nextY));
+            position[0] = nextX;
+            position[1] = nextY;
             answer++;
         }
 
         return answer;
     }
 
-    public boolean isExist(List<int[]> record, int[] point) {
-        for (int i = 0; i < record.size() - 1; i++) {
-            if (record.get(i)[0] == point[0] && record.get(i)[1] == point[1]) {
-                return true;
-            }
-        }
-        return false;
+    public Map<Character, int[]> getCommandMap() {
+        return Map.of(
+                'U', new int[]{0, 1},
+                'D', new int[]{0, -1},
+                'R', new int[]{1, 0},
+                'L', new int[]{-1, 0}
+        );
+    }
+
+    public boolean isExist(Set<String> record, int x, int y, int nextX, int nextY) {
+        String key1 = generateKey(x, y, nextX, nextY);
+        String key2 = generateKey(nextX, nextY, x, y);
+
+        return record.contains(key1) || record.contains(key2);
+    }
+
+    public String generateKey(int a, int b, int c, int d) {
+        return new StringBuilder()
+                .append(a).append("-")
+                .append(b).append("-")
+                .append(c).append("-")
+                .append(d).toString();
     }
 }
