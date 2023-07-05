@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="" />
+    <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +95,7 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.org.codingtest.level2.p17679.Solution">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.Main" />
       <module name="java.main" />
@@ -133,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.codingtest.c.test3.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.c.test3.Solution" />
+    <configuration name="org.codingtest.level2.p17679.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level2.p17679.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.c.test2.*" />
+          <option name="PATTERN" value="org.codingtest.level2.p17679.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.level2.p17679.Solution" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.org.codingtest.c.test1.Solution" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.org.codingtest.c.test3.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -232,6 +234,8 @@
       <workItem from="1687741443270" duration="38000" />
       <workItem from="1687784569666" duration="5406000" />
       <workItem from="1688388099686" duration="2254000" />
+      <workItem from="1688438124891" duration="1365000" />
+      <workItem from="1688567732201" duration="3831000" />
     </task>
     <servers />
   </component>
