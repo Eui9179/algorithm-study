@@ -12,5 +12,11 @@ public class Main {
 
         list.remove(1);
 
+        StringBuilder sb = new StringBuilder();
+
+        Map<Integer, Integer> map = new HashMap<>();
+        for (Integer key : map.keySet()) {
+
+        }
     }
 }
