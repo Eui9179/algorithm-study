@@ -19,6 +19,7 @@ public class Main
         String operation = sc.nextLine();
 
         String answer = operation.contains(secret) ? "secret": "normal";
+
         System.out.println(answer);
     }
 }

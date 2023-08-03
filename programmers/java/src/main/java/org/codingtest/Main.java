@@ -10,6 +10,7 @@ public class Main {
         int[] ints = list.stream().mapToInt(Integer::intValue).toArray();
         Scanner scanner = new Scanner(System.in);
 
-        String a = "123";
+        list.remove(1);
+
     }
 }
