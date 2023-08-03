@@ -96,7 +96,7 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P409">
+  <component name="RunManager" selected="Application.org.codingtest.softeer.p21.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.Main" />
       <module name="java.main" />
@@ -123,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.codingtest.c.test1.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.c.test1.Solution" />
+    <configuration name="org.codingtest.level2.p17679.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level2.p17679.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.c.test1.*" />
+          <option name="PATTERN" value="org.codingtest.level2.p17679.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.codingtest.level2.p17679.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level2.p17679.Solution" />
+    <configuration name="org.codingtest.softeer.p21.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.softeer.p21.Main" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level2.p17679.*" />
+          <option name="PATTERN" value="org.codingtest.softeer.p21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.softeer.p21.Main" />
         <item itemvalue="Application.P409" />
         <item itemvalue="Application.org.codingtest.level2.p17679.Solution" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.org.codingtest.c.test1.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +243,7 @@
       <workItem from="1689951086465" duration="684000" />
       <workItem from="1690885503958" duration="815000" />
       <workItem from="1690969981981" duration="1906000" />
-      <workItem from="1691045991389" duration="2552000" />
+      <workItem from="1691045991389" duration="4546000" />
     </task>
     <servers />
   </component>
