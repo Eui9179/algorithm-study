@@ -14,9 +14,21 @@ public class Main {
 
         StringBuilder sb = new StringBuilder();
 
-        Map<Integer, Integer> map = new HashMap<>();
-        for (Integer key : map.keySet()) {
 
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+
+        Map<Integer, List<Integer>> map = new HashMap<>();
+
+        for (int i = 0; i < m; i++) {
+            int start = sc.nextInt();
+            int target = sc.nextInt();
+
+            map.put(
+                    start,
+                    map.getOrDefault(start, new ArrayList<>(List.of(target)))
+            );
         }
     }
 }

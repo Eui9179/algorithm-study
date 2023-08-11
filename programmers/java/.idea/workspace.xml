@@ -96,13 +96,13 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.softeer.p212.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.Main" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="P409" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.softeer.P409" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.*" />
+          <option name="PATTERN" value="org.codingtest.softeer.p409.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P409" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.softeer.P409" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.inflearn.implement_1.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.softeer.p409.*" />
+          <option name="PATTERN" value="org.codingtest.inflearn.implement_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.org.codingtest.softeer.p212.Main" />
         <item itemvalue="Application.org.codingtest.softeer.p21.Main" />
         <item itemvalue="Application.P409" />
         <item itemvalue="Application.org.codingtest.level2.p17679.Solution" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +243,10 @@
       <workItem from="1689951086465" duration="684000" />
       <workItem from="1690885503958" duration="815000" />
       <workItem from="1690969981981" duration="1906000" />
-      <workItem from="1691045991389" duration="16572000" />
+      <workItem from="1691045991389" duration="16601000" />
+      <workItem from="1691137702710" duration="5967000" />
+      <workItem from="1691472538496" duration="16000" />
+      <workItem from="1691738288913" duration="3274000" />
     </task>
     <servers />
   </component>
