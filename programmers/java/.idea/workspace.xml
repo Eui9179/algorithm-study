@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/inflearn/implement_1/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/inflearn/implement_1/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +96,7 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.org.codingtest.inflearn.implement_2.Solution">
     <configuration name="P409" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.softeer.P409" />
       <module name="java.main" />
@@ -124,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.codingtest.level2.p17679.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level2.p17679.Solution" />
+    <configuration name="org.codingtest.inflearn.implement_2.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.inflearn.implement_2.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level2.p17679.*" />
+          <option name="PATTERN" value="org.codingtest.inflearn.implement_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.inflearn.implement_2.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.org.codingtest.softeer.p212.Main" />
         <item itemvalue="Application.org.codingtest.softeer.p21.Main" />
         <item itemvalue="Application.P409" />
-        <item itemvalue="Application.org.codingtest.level2.p17679.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +246,7 @@
       <workItem from="1691045991389" duration="16601000" />
       <workItem from="1691137702710" duration="5967000" />
       <workItem from="1691472538496" duration="16000" />
-      <workItem from="1691738288913" duration="4794000" />
+      <workItem from="1691738288913" duration="9420000" />
     </task>
     <servers />
   </component>

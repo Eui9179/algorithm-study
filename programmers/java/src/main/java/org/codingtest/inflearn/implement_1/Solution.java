@@ -25,7 +25,7 @@ class Solution {
         node[position] = node[position - 1];
         node[position - 1] = tmp;
     }
-    
+
     public static void main(String[] args){
         Solution T = new Solution();
         System.out.println(Arrays.toString(T.solution(5, new int[][]{{1, 3}, {2, 4}, {1, 4}})));
