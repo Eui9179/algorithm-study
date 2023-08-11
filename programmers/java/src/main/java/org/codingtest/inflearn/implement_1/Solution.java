@@ -3,33 +3,29 @@ package org.codingtest.inflearn.implement_1;
 import java.util.Arrays;
 
 class Solution {
+
     public char[] solution(int n, int[][] ladder){
         char[] answer = new char[n];
 
-        for (int user = 1; user <= n; user++) {
-            int current = user;
-            for (int[] step : ladder) {
-                current += moveLadder(current, step);
+        for (int i = 0; i < n; i++) {
+            answer[i] = String.valueOf((char) (65 + i)).charAt(0);
+        }
+
+        for (int[] steps : ladder) {
+            for (int step : steps) {
+                changePosition(answer, step);
             }
-            answer[current - 1] = String.valueOf((char) (64 + user)).charAt(0);
         }
 
         return answer;
     }
 
-    public int moveLadder(int current, int[] step) {
-        for (int s : step) {
-            if (current == s) {
-                return 1;
-            }
-
-            if (current - 1 == s) {
-                return -1;
-            }
-        }
-        return 0;
+    public void changePosition(char[] node, int position) {
+        char tmp = node[position];
+        node[position] = node[position - 1];
+        node[position - 1] = tmp;
     }
-
+    
     public static void main(String[] args){
         Solution T = new Solution();
         System.out.println(Arrays.toString(T.solution(5, new int[][]{{1, 3}, {2, 4}, {1, 4}})));
