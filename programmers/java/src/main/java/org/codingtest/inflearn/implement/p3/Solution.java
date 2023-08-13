@@ -1,6 +1,4 @@
-package org.codingtest.inflearn.implement_3;
-
-import java.util.*;
+package org.codingtest.inflearn.implement.p3;
 
 class Solution {
     public int solution(int[][] board){

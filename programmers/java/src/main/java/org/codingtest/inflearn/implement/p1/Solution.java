@@ -1,4 +1,4 @@
-package org.codingtest.inflearn.implement_1;
+package org.codingtest.inflearn.implement.p1;
 
 import java.util.Arrays;
 
