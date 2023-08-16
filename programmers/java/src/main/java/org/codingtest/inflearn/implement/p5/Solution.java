@@ -3,7 +3,43 @@ package org.codingtest.inflearn.implement.p5;
 import java.util.*;
 
 class Solution {
-    public int solution(int[] nums){
+
+    public int solution(int[] nums) {
+        int answer = 0;
+
+        List<Integer> peakIndices = findPeakIndices(nums);
+
+        for (int peakIndex : peakIndices) {
+            int count = 1;
+            int down = peakIndex - 1;
+            while (down >= 0 && nums[down] < nums[down + 1]) {
+                count++;
+                down--;
+            }
+
+            int up = peakIndex + 1;
+            while (up < nums.length && nums[up] < nums[up - 1]) {
+                count++;
+                up++;
+            }
+
+            answer = Math.max(answer, count);
+        }
+
+        return answer;
+    }
+
+    private List<Integer> findPeakIndices(int[] nums) {
+        List<Integer> peaks = new ArrayList<>();
+        for (int i = 1; i < nums.length - 1; i++) {
+            if ((nums[i - 1] < nums[i]) && (nums[i] > nums[i + 1])) {
+                peaks.add(i);
+            }
+        }
+        return peaks;
+    }
+
+    public int solution2(int[] nums){
         int answer = 0;
         int count = 1;
 
