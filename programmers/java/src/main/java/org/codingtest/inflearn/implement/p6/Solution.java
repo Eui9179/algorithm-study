@@ -5,51 +5,59 @@ import java.util.*;
 class Solution {
     public int solution(int[][] fruit){
         int answer = 0;
-
-        run(fruit);
-
         int[] indices = new int[fruit.length];
 
         for (int i = 0; i < fruit.length; i++) {
             indices[i] = getMinimumFruit(fruit[i]);
         }
 
-        for (int i = 0; i < indices.length; i++) {
-            System.out.println(Arrays.toString(fruit[i]));
+        boolean[] check = new boolean[fruit.length];
+        checkIrreplaceable(fruit, indices, check);
 
+        run(fruit, indices, check);
+        for (int i = 0; i < indices.length; i++) {
             answer += fruit[i][indices[i]];
         }
 
         return answer;
     }
 
-    public void run(int[][] fruit) {
-        boolean[] completed = new boolean[fruit.length];
-        int[] indices = new int[fruit.length];
-
+    private void checkIrreplaceable(int[][] fruit, int[] indices, boolean[] check) {
         for (int i = 0; i < fruit.length; i++) {
-            indices[i] = getMinimumFruit(fruit[i]);
+            int min = fruit[i][indices[i]];
+            int count = 0;
+            for (int f : fruit[i]) {
+                if (min == f) count++;
+            }
+            if (count > 1) check[i] = true;
         }
+    }
 
-        int[] A, B;
+    public void run(int[][] fruit, int[] indices, boolean[] check) {
         for (int i = 0; i < fruit.length - 1; i++) {
-            A = fruit[i];
+            if (check[i]) continue;
 
             for (int j = i + 1; j < fruit.length; j++) {
-                B = fruit[j];
+                if (check[i]) break;
 
-                if (completed[i]) break;
+                if (indices[i] == indices[j] || check[j]) continue;
 
-                if (indices[i] == indices[j] || completed[j]) continue;
+                int AMin = fruit[i][indices[i]];
+                int ASub = fruit[i][indices[j]];
+                int BMin = fruit[j][indices[j]];
+                int BSub = fruit[j][indices[i]];
 
-                completed[i] = true;
-                completed[j] = true;
+                if (AMin + 1 == ASub || BMin + 1 == BSub) {
+                    continue;
+                }
 
-                A[indices[i]]++;
-                B[indices[i]]--;
+                check[i] = true;
+                check[j] = true;
 
-                A[indices[j]]--;
-                B[indices[j]]++;
+                fruit[i][indices[i]]++;
+                fruit[i][indices[j]]--;
+                fruit[j][indices[j]]++;
+                fruit[j][indices[i]]--;
             }
         }
     }
