@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/inflearn/implement/p6/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/inflearn/implement/p6/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,13 +95,13 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.inflearn.implement.p6.Solution">
-    <configuration name="org.codingtest.inflearn.implement_2.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.inflearn.implement_2.Solution" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.inflearn.implement.p7.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.inflearn.implement_2.*" />
+          <option name="PATTERN" value="org.codingtest.inflearn.implement.p7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.org.codingtest.inflearn.implement.p6.Solution" />
         <item itemvalue="Application.org.codingtest.inflearn.implement.p5.Solution" />
         <item itemvalue="Application.org.codingtest.inflearn.implement.p4.Solution" />
         <item itemvalue="Application.org.codingtest.inflearn.implement_3.Solution" />
-        <item itemvalue="Application.org.codingtest.inflearn.implement_2.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +250,8 @@
       <workItem from="1692190122951" duration="4302000" />
       <workItem from="1692246262760" duration="8000" />
       <workItem from="1692285516071" duration="612000" />
-      <workItem from="1692624224186" duration="5681000" />
+      <workItem from="1692624224186" duration="6373000" />
+      <workItem from="1692712873484" duration="1488000" />
     </task>
     <servers />
   </component>
