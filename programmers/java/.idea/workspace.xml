@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/inflearn/implement/p7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/inflearn/implement/p7/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +252,7 @@
       <workItem from="1692246262760" duration="8000" />
       <workItem from="1692285516071" duration="612000" />
       <workItem from="1692624224186" duration="6373000" />
-      <workItem from="1692712873484" duration="1488000" />
+      <workItem from="1692712873484" duration="2750000" />
     </task>
     <servers />
   </component>

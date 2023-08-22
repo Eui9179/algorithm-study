@@ -5,18 +5,33 @@ import java.util.*;
 class Solution {
     public int solution(int[] keypad, String password) {
         int[][] keypad2 = generateKeypad(keypad);
-        return inputPassword(keypad2, password);
+        int[][] distance = initDistance(keypad2);
+
+        return inputPassword(distance, password);
     }
 
-    private int inputPassword(int[][] keypad, String password) {
-        int result = 0;
+    private int[][] initDistance(int[][] keypad) {
+        int[][] distance = new int[10][10];
         Map<Integer, int[]> pointMap = initPointMap(keypad);
 
-        for (int i = 0; i < password.length() - 1; i++) {
-            int start = Integer.parseInt(String.valueOf(password.charAt(i)));
-            int target = Integer.parseInt(String.valueOf(password.charAt(i + 1)));
+        for (int i = 1; i < 10; i++) {
+            for (int j = i; j < 10; j++) {
+                int d = calcDistance(keypad, pointMap, i, j);
+                distance[i][j] = d;
+                distance[j][i] = d;
+            }
+        }
 
-            result += calcDistance(keypad, pointMap, start, target);
+        return distance;
+    }
+
+    private int inputPassword(int[][] distance, String password) {
+        int result = 0;
+
+        for (int i = 0; i < password.length() - 1; i++) {
+            int start = password.charAt(i) - 48;
+            int target = password.charAt(i + 1) - 48;
+            result += distance[start][target];
         }
 
         return result;
