@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +94,7 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.inflearn.dfs.p1.Solution">
+  <component name="RunManager" selected="Application.org.codingtest.inflearn.dfs.p2.Solution">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.Main" />
       <module name="java.main" />
@@ -138,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.codingtest.inflearn.implement.p5.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.inflearn.implement.p5.Solution" />
+    <configuration name="org.codingtest.inflearn.dfs.p2.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.inflearn.dfs.p2.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.inflearn.implement.p5.*" />
+          <option name="PATTERN" value="org.codingtest.inflearn.dfs.p2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.inflearn.dfs.p2.Solution" />
         <item itemvalue="Application.org.codingtest.inflearn.dfs.p1.Solution" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.org.codingtest.inflearn.implement.p6.Solution" />
-        <item itemvalue="Application.org.codingtest.inflearn.implement.p5.Solution" />
       </list>
     </recent_temporary>
   </component>
