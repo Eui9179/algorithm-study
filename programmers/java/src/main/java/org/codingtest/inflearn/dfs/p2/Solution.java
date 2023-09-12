@@ -10,7 +10,6 @@ class Solution {
         Map<Integer, List<Integer>> map = generateMap(7);
         exceptFight(map, fight);
 
-//        int i = 1;
         for (int i = 1; i <= 7; i++) {
             List<Integer> visited = new ArrayList<>();
             visited.add(i);
@@ -26,11 +25,11 @@ class Solution {
             return;
         }
 
-        for (Integer nextNode : map.get(node)) {
+        for (Integer nextNode : map.get(node)) { // for 문을 통해서 특정 노드가 방문했던 노드는 다시 방문하지 않음
             if (visited.contains(nextNode)) continue;
-            visited.add(node);
-            dfs(nextNode, map, visited);
-            visited.remove(visited.size() - 1);
+            visited.add(node); // 방문 노드 삽입
+            dfs(nextNode, map, visited); // dfs
+            visited.remove(visited.size() - 1); // 방문했던 노드 지우기
         }
     }
 
