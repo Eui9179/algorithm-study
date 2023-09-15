@@ -17,7 +17,7 @@ class Solution {
         history[0] = 0;
 
         for (int i = 0; i < nums.length; i++) {
-            if (history[i] == -1) break;
+            if (history[i] == -1) break; // 갈 수 없는 위치
             for (int j = 1; j <= nums[i]; j++) {
                 int jumpPosition = i + j;
                 if (jumpPosition >= nums.length) {
@@ -25,6 +25,7 @@ class Solution {
                 }
 
                 if ((history[i] + 1 < history[jumpPosition]) || history[jumpPosition] == -1) {
+                    // 최소로 점프할 수 있는 거리 or -1이 아니면
                     history[jumpPosition] = history[i] + 1;
                 }
             }

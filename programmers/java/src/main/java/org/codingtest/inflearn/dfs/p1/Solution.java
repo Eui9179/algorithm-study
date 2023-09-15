@@ -20,7 +20,7 @@ class Solution {
     }
 
     public int dfs(List<Integer> nums, String currentNumString, int oriNumber, List<Integer> visited) {
-        if (visited.size() == 0) {
+        if (visited.isEmpty()) {
             return Integer.parseInt(currentNumString);
         }
 
@@ -33,6 +33,7 @@ class Solution {
             }
             visited.add(num);
         }
+
         return -1;
     }
 
