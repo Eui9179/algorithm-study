@@ -16,7 +16,7 @@ class Solution {
 
     private void updateCount(int[] answer, int[] enter, int[] exit, int enterIndex) {
         // 나 이후로 들어온 사람 && 나보다 먼저 나간 사람 -> 확정
-        //
+        // 나 ~ 나보다 먼저 나간 사람들 이전에 들어온 사람
         Set<Integer> metSet = new HashSet<>();
         Set<Integer> preExitSet = new HashSet<>();
         Set<Integer> preEnterSet = getPreEnters(enter, enterIndex);
