@@ -1,4 +1,4 @@
-package org.codingtest.inflearn.hashing;
+package org.codingtest.inflearn.hashing.p1;
 
 import java.util.HashMap;
 import java.util.Map;
