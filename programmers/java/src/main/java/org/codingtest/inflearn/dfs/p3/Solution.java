@@ -4,30 +4,11 @@ import java.util.*;
 
 class Solution {
     public int solution(int[][] cans) {
-        int answer = Integer.MAX_VALUE;
-        List<List<Integer>> cases = new ArrayList<>();
         List<Integer> visited = new ArrayList<>();
-
-        pickK(cases, cans.length / 2, visited);
-
-        for (List<Integer> whites : cases) {
-            int sum1 = 0;
-            int sum2 = 0;
-
-            for (int i = 0; i < cans.length; i++) {
-                if (whites.contains(i)) {
-                    sum1 += cans[i][0];
-                } else {
-                    sum2 += cans[i][1];
-                }
-                answer = Math.min(Math.abs(sum1 - sum2), answer);
-            }
-        }
-
-        return answer;
+        return pickK2(cans, cans.length / 2, visited, Integer.MAX_VALUE);
     }
 
-    private void pickK(List<List<Integer>> cases, int k, List<Integer> visited) {
+    private void combinationK(List<List<Integer>> cases, int k, List<Integer> visited) {
         if (visited.size() == k) {
             cases.add(new ArrayList<>(visited));
             return;
@@ -38,10 +19,34 @@ class Solution {
                 continue;
             }
             visited.add(i);
-            pickK(cases, k, visited);
+            combinationK(cases, k, visited);
             visited.remove(visited.size() - 1);
         }
     }
+
+
+    private int pickK2(int[][] cans, int k, List<Integer> visited, int result) {
+        if (visited.size() == k) {
+            int sum1 = 0;
+            int sum2 = 0;
+            for (int i = 0; i < cans.length; i++) {
+                if (visited.contains(i)) sum1 += cans[i][0];
+                else sum2 += cans[i][1];
+            }
+            return Math.abs((sum1 - sum2));
+        }
+
+        for (int i = 0; i < k * 2; i++) {
+            if (visited.contains(i)) {
+                continue;
+            }
+            visited.add(i);
+            result = Math.min(result, pickK2(cans, k, visited, result));
+            visited.remove(visited.size() - 1);
+        }
+        return result;
+    }
+
 
     public static void main(String[] args) {
         Solution T = new Solution();
