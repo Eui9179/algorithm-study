@@ -9,28 +9,17 @@ class Solution {
         String[] start = sTime[0].split(":");
         String[] end = sTime[1].split(":");
 
-        int startHour = Integer.parseInt(start[0]);
-        int startMinute = Integer.parseInt(start[1]);
-
-        int endHour = Integer.parseInt(end[0]);
-        int endMinute = Integer.parseInt(end[1]);
+        int startTime = 60 * Integer.parseInt(start[0]) + Integer.parseInt(start[1]);
+        int endTime = 60 * Integer.parseInt(end[0]) + Integer.parseInt(end[1]);
 
         for (String report : reports) {
             String[] sReport = report.split(" ");
-            String person = sReport[0];
-            String time = sReport[1];
+            String[] sReportTime = sReport[1].split(":");
+            int time = 60 * Integer.parseInt(sReportTime[0]) + Integer.parseInt(sReportTime[1]);
 
-            String[] sReportTime = time.split(":");
-            int hour = Integer.parseInt(sReportTime[0]);
-            int minute = Integer.parseInt(sReportTime[1]);
+            Report r = new Report(sReport[0], time);
 
-            Report r = new Report(person, hour, minute);
-
-            if (startHour < hour && hour < endHour) {
-                answer.add(r);
-            } else if (startHour == hour && (startMinute <= minute && minute < 60)) {
-                answer.add(r);
-            } else if (endHour == hour && (0 <= minute && minute <= endMinute)) {
+            if (startTime <= time && time <= endTime) {
                 answer.add(r);
             }
         }
@@ -47,21 +36,16 @@ class Solution {
 
     static class Report implements Comparable<Report> {
         String name;
-        int hour;
-        int minute;
+        int time;
 
-        Report(String name, int hour, int minute) {
+        Report(String name, int time) {
             this.name = name;
-            this.hour = hour;
-            this.minute = minute;
+            this.time = time;
         }
 
         @Override
         public int compareTo(Report report) {
-            if (this.hour == report.hour) {
-                return this.minute - report.minute;
-            }
-            return this.hour - report.hour;
+            return this.time - report.time;
         }
     }
 }
