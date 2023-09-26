@@ -1,4 +1,4 @@
-package org.codingtest.inflearn.ds.p3;
+package org.codingtest.inflearn.ds.p3_2;
 
 import java.util.*;
 
@@ -21,6 +21,16 @@ class Solution {
 
         int i = 0;
         while (i < arrival.length) {
+            int j = i;
+            while (j < arrival.length && arrival[j] <= time) {
+
+                if (state[j] == 1) {
+                    outQueue.add(new InAndOut(i, arrival[i]));
+                } else {
+                    inQueue.add(new InAndOut(i, arrival[i]));
+                }
+                j++;
+            }
             if (status == 1) {
                 if (!outQueue.isEmpty() && outQueue.get(0).time <= time) {
                     answer[outQueue.get(0).index] = time;

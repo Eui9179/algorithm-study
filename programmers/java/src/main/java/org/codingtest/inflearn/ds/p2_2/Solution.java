@@ -1,4 +1,4 @@
-package org.codingtest.inflearn.ds.p2;
+package org.codingtest.inflearn.ds.p2_2;
 
 import java.util.*;
 

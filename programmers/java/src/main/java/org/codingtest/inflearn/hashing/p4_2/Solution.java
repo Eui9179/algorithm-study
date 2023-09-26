@@ -1,4 +1,4 @@
-package org.codingtest.inflearn.hashing.p4;
+package org.codingtest.inflearn.hashing.p4_2;
 
 import java.util.ArrayList;
 import java.util.HashMap;

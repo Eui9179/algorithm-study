@@ -1,4 +1,4 @@
-package org.codingtest.inflearn.dfs.p3;
+package org.codingtest.inflearn.dfs.p3_2;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package org.codingtest.inflearn.implement.p8;
+package org.codingtest.inflearn.implement.p8_2;
 
 import java.util.*;
 class Solution2 {
