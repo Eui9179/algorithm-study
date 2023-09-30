@@ -18,7 +18,6 @@ class Solution {
         int i = 1;
 
         while (i < enter.length && !outQueue.isEmpty()) {
-
             eSplit = enter[i].split(" ");
             timeSplit = eSplit[0].split(":");
             laserKind = Integer.parseInt(eSplit[1]);
@@ -27,18 +26,15 @@ class Solution {
                 outQueue.poll();
                 answer = Math.max(answer, outQueue.size());
             }
-
             endTime = startTime + laser[laserKind];
             outQueue.add(new Node(i, endTime));
             i++;
         }
 
-
         while (!outQueue.isEmpty()) {
             outQueue.poll();
             answer = Math.max(answer, outQueue.size());
         }
-        System.out.println();
 
         return answer;
     }
