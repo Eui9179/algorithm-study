@@ -17,13 +17,13 @@ class Solution {
         }
 
         while (!sortedPrograms.isEmpty() || !taskQueue.isEmpty()) {
-            while (!sortedPrograms.isEmpty() && time >= sortedPrograms.peek().callTime) {
-                taskQueue.offer(Task.of(sortedPrograms.poll()));
-            }
 
             if (taskQueue.isEmpty()) {
-                time++;
-                continue;
+                time = Math.max(sortedPrograms.peek().callTime, time);
+            }
+
+            while (!sortedPrograms.isEmpty() && time >= sortedPrograms.peek().callTime) {
+                taskQueue.offer(Task.of(sortedPrograms.poll()));
             }
 
             Task task = taskQueue.poll();
