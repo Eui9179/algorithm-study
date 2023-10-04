@@ -4,8 +4,7 @@ import java.util.*;
 
 class Solution {
     public int[] solution(int[] nums){
-//        int[] answer = new int[nums.length / 2];
-        List<Integer> answer = new ArrayList<>();
+        int[] answer = new int[nums.length / 2];
         Set<Integer> set = new HashSet<>();
 
         Arrays.sort(nums);
@@ -14,12 +13,16 @@ class Solution {
             set.add(num);
         }
 
+        int index = 0;
+
         for (int num : nums) {
-            if (set.contains(num * 2)) answer.add(num);
-            else set.remove(num);
+            if (set.contains(num * 2)) {
+                answer[index] = num;
+                index++;
+            } else set.remove(num);
         }
         
-        return answer.stream().mapToInt(e -> e).toArray();
+        return answer;
     }
 
     public static void main(String[] args){
