@@ -13,24 +13,29 @@ class Solution {
         PriorityQueue<Task> taskQueue = new PriorityQueue<>();
 
         for (int i = 0; i < meetings.length; i++) {
+            // 미팅 룸에 전부 삽입
             Meeting meeting = new Meeting(i, meetings[i][0], meetings[i][1]);
             meetingQueue.add(meeting);
         }
 
         while (!meetingQueue.isEmpty() || !taskQueue.isEmpty()) {
-            if (!meetingQueue.isEmpty() && meetingQueue.peek().startTime <= time) {
+            // 미팅 룸과 예약 작업이 남을 때까지 반복
+            while (!meetingQueue.isEmpty() && meetingQueue.peek().startTime <= time) {
+                // 현재 시간보다 작으면 전부 작업 큐에 넣음
                 taskQueue.add(Task.of(meetingQueue.poll()));
             }
 
             time++;
             
             for (int i = 0; i < rooms.length; i++) {
-                if (rooms[i] > 0) rooms[i]--;
+                // 방 남은 시간 계산
+                if (rooms[i] > 0) rooms[i]--; // 시간 하나 줄임
                 if (taskQueue.isEmpty()) continue;
                 if (rooms[i] == 0) {
+                    // 빈 방이라면 사용 시간을 넣음
                     Task task = taskQueue.poll();
                     rooms[i] = task.endTime - task.startTime;
-                    record[i]++;
+                    record[i]++; // 방 사용 개수
                 }
             }
         }
