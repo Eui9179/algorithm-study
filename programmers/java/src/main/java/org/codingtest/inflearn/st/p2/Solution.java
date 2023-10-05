@@ -9,9 +9,7 @@ class Solution {
 
         Arrays.sort(nums);
 
-        for (int num : nums) {
-            set.add(num);
-        }
+        for (int num : nums) set.add(num);
 
         int index = 0;
 
