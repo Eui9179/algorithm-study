@@ -94,26 +94,13 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.inflearn.st.p4.Solution">
+  <component name="RunManager" selected="Application.org.codingtest.inflearn.st.p5.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.inflearn.st.p3.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.codingtest.inflearn.st.p3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.codingtest.inflearn.ds.p6.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.inflearn.ds.p6.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.inflearn.ds.p6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,13 +147,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.codingtest.inflearn.st.p5.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.inflearn.st.p5.Solution" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.inflearn.st.p5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.inflearn.st.p5.Solution" />
         <item itemvalue="Application.org.codingtest.inflearn.st.p4.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.org.codingtest.inflearn.st.p2.Solution" />
         <item itemvalue="Application.org.codingtest.inflearn.st.p1.Solution" />
-        <item itemvalue="Application.org.codingtest.inflearn.ds.p6.Solution" />
       </list>
     </recent_temporary>
   </component>
