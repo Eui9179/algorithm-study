@@ -6,31 +6,52 @@ class Solution {
     public int solution(int[] tasks, long k) {
         int answer = 0;
 
-        int[] sorted = Arrays.copyOf(tasks, tasks.length);
+        int[][] sorted = copyWithIndex(tasks);
         int queueIndex = 0;
         int queueSize = sorted.length;
+        Arrays.sort(sorted, Comparator.comparingInt(s -> s[1]));
 
-        Arrays.sort(sorted);
+        int preValue = sorted[0][1];
 
-        while (k > 0) {
-            if ((long) sorted[queueIndex] * queueSize <= k) {
-                k -= (long) sorted[queueIndex] * queueSize;
-                queueIndex++;
-                if (queueIndex < sorted.length) {
-                    sorted[queueIndex] -= sorted[queueIndex - 1];
-                }
-                queueSize--;
-            } else {
-                k %= queueSize;
-
+        while ((long) sorted[queueIndex][1] * queueSize <= k) {
+            k -= (long) sorted[queueIndex][1] * queueSize;
+            sorted[queueIndex][1] = 0;
+            queueIndex++;
+            if (queueIndex < sorted.length) {
+                int temp = sorted[queueIndex][1];
+                sorted[queueIndex][1] -= preValue;
+                preValue = temp;
             }
+            queueSize--;
         }
 
 
-        return answer;
+        for (int[] s : sorted) {
+            tasks[s[0]] = s[1];
+        }
+
+        k %= queueSize;
+        if (k == 0) return tasks.length;
+
+        for (int i = 0; i < tasks.length; i++) {
+            if (tasks[i] == 0) continue;
+            if (k == 0) return i + 1;
+            k--;
+        }
+
+        return 0;
     }
 
-    public static void main(String[] args){
+    public int[][] copyWithIndex(int[] tasks) {
+        int[][] result = new int[tasks.length][2];
+        for (int i = 0; i < tasks.length; i++) {
+            result[i][0] = i;
+            result[i][1] = tasks[i];
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
         Solution T = new Solution();
         System.out.println(T.solution(new int[]{1, 2, 3}, 5));
         System.out.println(T.solution(new int[]{8, 5, 2, 9, 10, 7}, 30));
