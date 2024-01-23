@@ -1,4 +1,4 @@
-package org.codingtest.score_kit.p42583;
+package org.codingtest.score_kit.stack_queue.p42583;
 
 /*
 문제 설명

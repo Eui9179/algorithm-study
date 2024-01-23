@@ -1,4 +1,4 @@
-package org.codingtest.score_kit.p42584;
+package org.codingtest.score_kit.stack_queue.p42584;
 
 import java.util.ArrayList;
 import java.util.Arrays;
