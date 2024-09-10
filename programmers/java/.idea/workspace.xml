@@ -65,6 +65,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p172928.Solution.executor": "Run",
     "Application.org.codingtest.level1.p340199.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.p42583.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.sort.p42746.Solution.executor": "Run",
@@ -102,13 +103,13 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.level1.p340199.Solution">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.p42584.Solution" />
+  <component name="RunManager" selected="Application.org.codingtest.level1.p172928.Solution">
+    <configuration name="org.codingtest.level1.p172928.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level1.p172928.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.score_kit.p42584.*" />
+          <option name="PATTERN" value="org.codingtest.level1.p172928.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.level1.p172928.Solution" />
         <item itemvalue="Application.org.codingtest.level1.p340199.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.sort.p42748.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.sort.p42746.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.p42583.Solution" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +276,9 @@
       <workItem from="1705995275597" duration="2547000" />
       <workItem from="1723984877988" duration="112000" />
       <workItem from="1725861912340" duration="120000" />
-      <workItem from="1725862403709" duration="1603000" />
+      <workItem from="1725862403709" duration="1775000" />
+      <workItem from="1725928564748" duration="8789000" />
+      <workItem from="1725943456802" duration="1935000" />
     </task>
     <servers />
   </component>
