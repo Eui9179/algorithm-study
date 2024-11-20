@@ -79,6 +79,8 @@
     "Application.org.codingtest.level1.p340199.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.hash.p1845.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.hash.p42576.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.hash.p42577.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.hash.p42578.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.p42583.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.sort.p42746.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.sort.p42748.Solution.executor": "Run",
@@ -115,39 +117,13 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.score_kit.hash.p42576.Solution">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level1.p136798.Solution" />
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.hash.p42579.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level1.p136798.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.codingtest.level1.p135808.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level1.p135808.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.level1.p135808.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.codingtest.level1.p138477.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level1.p138477.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.level1.p138477.*" />
+          <option name="PATTERN" value="org.codingtest.score_kit.hash.p42579.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,13 +157,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.codingtest.score_kit.hash.p42577.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.hash.p42577.Solution" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.score_kit.hash.p42577.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.codingtest.score_kit.hash.p42578.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.hash.p42578.Solution" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.score_kit.hash.p42578.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.org.codingtest.score_kit.hash.p42578.Solution" />
+        <item itemvalue="Application.org.codingtest.score_kit.hash.p42577.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.hash.p42576.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.hash.p1845.Solution" />
-        <item itemvalue="Application.org.codingtest.level1.p135808.Solution" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.org.codingtest.level1.p138477.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +297,7 @@
       <workItem from="1726188917473" duration="4947000" />
       <workItem from="1726793553909" duration="7552000" />
       <workItem from="1729818561347" duration="1493000" />
-      <workItem from="1732061413123" duration="6703000" />
+      <workItem from="1732061413123" duration="20824000" />
     </task>
     <servers />
   </component>
