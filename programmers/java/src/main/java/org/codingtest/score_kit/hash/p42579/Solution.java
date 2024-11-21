@@ -41,70 +41,39 @@ class Solution {
 
     public static void main(String[] args) {
         System.out.println(Arrays.toString(new Solution().solution(new String[]{"classic", "pop", "classic", "classic", "pop"}, new int[]{500, 600, 150, 800, 2500})));
+        System.out.println(Arrays.toString(new Solution().solution(new String[]{"classic", "pop", "classic", "classic", "pop"}, new int[]{150, 600, 150, 150, 600})));
+        System.out.println(Arrays.toString(new Solution().solution(new String[]{"classic", "pop", "classic", "classic", "pop", "dance"}, new int[]{100, 100, 100, 100, 100, 150})));
     }
 
-    public Integer[] solution(String[] genres, int[] plays) {
+    public int[] solution(String[] genres, int[] plays) {
         List<Integer> answer = new ArrayList<>();
+        Queue<String> total = generateTotal(genres, plays);
 
-        Map<String, Map<String, Integer>> record = generateRecord(genres, plays);
-        Map<String, Integer> total = generateTotal(genres, plays);
-
-        System.out.println(record);
-        System.out.println(total);
-        for (int i = 0; i < genres.length; i++) {
-            if (!total.containsKey(genres[i])) continue;
-            int min = Integer.MIN_VALUE;
-            String maxKey = "";
-            for (String t : total.keySet()) {
-                if (min < total.get(t)) {
-                    maxKey = t;
-                    min = total.get(t);
+        while (!total.isEmpty()) {
+            String genre = total.poll();
+            for (int count = 0; count < 2; count++) {
+                int index = -1;
+                int max = Integer.MIN_VALUE;
+                for (int i = 0; i < plays.length; i++) {
+                    if (!genres[i].equals(genre) || answer.contains(i)) continue;
+                    if (max < plays[i]) {
+                        max = Math.max(max, plays[i]);
+                        index = i;
+                    }
                 }
+                if (index != -1) answer.add(index);
             }
-            total.remove(maxKey);
-            min = Integer.MIN_VALUE;
-            for (String r : record.get(maxKey).keySet()) {
-                String maxPlay = "";
-                if (min < record.get(maxKey).get(r)) {
-                    maxPlay = r;
-                    min = record.get(maxKey).get(r);
-                }
-                System.out.println(maxPlay);
-//                answer.add(Integer.valueOf(maxPlay));
-            }
-
         }
-        /*
-        classic : {
-            "0": 600,
-            "1": 500,
-            "2": 150
-        }
-         */
 
-        return answer.toArray(new Integer[0]);
+        return answer.stream().mapToInt(i -> i).toArray();
     }
 
-    /*
-    {
-        pop = {1 = 600, total = 3100, 4 = 2500},
-        classic = {0 = 500, total = 1450, 2 = 150, 3 = 800}
-    }
-     */
-
-    private Map<String, Integer> generateTotal(String[] genres, int[] plays) {
-        return IntStream.range(0, genres.length)
+    private Queue<String> generateTotal(String[] genres, int[] plays) {
+        Map<String, Integer> map = IntStream.range(0, genres.length)
                 .boxed()
                 .collect(Collectors.toMap(i -> genres[i], i -> plays[i], Integer::sum));
-    }
-
-    private Map<String, Map<String, Integer>> generateRecord(String[] genres, int[] plays) {
-        Map<String, Map<String, Integer>> record = new HashMap<>();
-        for (int i = 0; i < genres.length; i++) {
-            record.put(genres[i], record.getOrDefault(genres[i], new HashMap<>()));
-            Map<String, Integer> info = record.get(genres[i]);
-            info.put(String.valueOf(i), plays[i]);
-        }
-        return record;
+        Queue<String> queue = new PriorityQueue<>((o1, o2) -> map.get(o2) - map.get(o1));
+        queue.addAll(map.keySet());
+        return queue;
     }
 }
