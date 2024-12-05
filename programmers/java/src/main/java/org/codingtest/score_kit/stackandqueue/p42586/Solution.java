@@ -32,9 +32,47 @@ progresses	speeds	return
  */
 
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
 class Solution {
+
+    public static void main(String[] args) {
+        System.out.println(Arrays.toString(new Solution().solution(new int[]{93, 30, 55}, new int[]{1, 30, 5})));
+    }
+
     public int[] solution(int[] progresses, int[] speeds) {
-        int[] answer = {};
-        return answer;
+        List<Integer> answer = new ArrayList<>();
+        List<Data> queue = new ArrayList<>(IntStream.range(0, progresses.length)
+                .mapToObj(i -> new Data(progresses[i], i))
+                .collect(Collectors.toList()));
+
+        while (!queue.isEmpty()) {
+            for (Data q : queue) {
+                q.value += speeds[q.index];
+            }
+
+            int count = 0;
+            while (!queue.isEmpty() && queue.get(0).value >= 100) {
+                count++;
+                queue.remove(0);
+            }
+            if (count != 0) answer.add(count);
+        }
+
+        return answer.stream().mapToInt(Integer::intValue).toArray();
+    }
+
+    private static class Data {
+        int value;
+        int index;
+
+        public Data(int value, int index) {
+            this.value = value;
+            this.index = index;
+        }
     }
 }
