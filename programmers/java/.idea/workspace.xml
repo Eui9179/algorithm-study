@@ -121,20 +121,7 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.score_kit.stackandqueue.p42587.Solution">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.hash.p42579.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.score_kit.hash.p42579.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.codingtest.score_kit.stackandqueue.p42583.Solution">
     <configuration name="org.codingtest.score_kit.stackandqueue.p12906.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.stackandqueue.p12906.Solution" />
       <module name="java.main" />
@@ -154,6 +141,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.codingtest.score_kit.stackandqueue.p12909.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.codingtest.score_kit.stackandqueue.p42583.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.stackandqueue.p42583.Solution" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.score_kit.stackandqueue.p42583.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.score_kit.stackandqueue.p42583.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.stackandqueue.p42587.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.stackandqueue.p12909.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.stackandqueue.p42586.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.stackandqueue.p12906.Solution" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +307,7 @@
       <workItem from="1732250551053" duration="20000" />
       <workItem from="1732785433258" duration="706000" />
       <workItem from="1733384933063" duration="5138000" />
-      <workItem from="1733705041506" duration="4655000" />
+      <workItem from="1733705041506" duration="8104000" />
     </task>
     <servers />
   </component>
