@@ -7,7 +7,6 @@
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/score_kit/stackandqueue/p42586/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/score_kit/stackandqueue/p42586/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +85,7 @@
     "Application.org.codingtest.score_kit.sort.p42746.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.sort.p42748.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.stackandqueue.p12906.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.stackandqueue.p12909.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.stackandqueue.p42586.Solution.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -120,26 +120,13 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.score_kit.stackandqueue.p42586.Solution">
+  <component name="RunManager" selected="Application.org.codingtest.score_kit.stackandqueue.p12909.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.hash.p42579.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.codingtest.score_kit.hash.p42579.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.codingtest.score_kit.hash.p42577.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.hash.p42577.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.score_kit.hash.p42577.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,6 +160,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.codingtest.score_kit.stackandqueue.p12909.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.stackandqueue.p12909.Solution" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.score_kit.stackandqueue.p12909.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.codingtest.score_kit.stackandqueue.p42586.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.stackandqueue.p42586.Solution" />
       <module name="java.main" />
@@ -188,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.score_kit.stackandqueue.p12909.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.stackandqueue.p42586.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.stackandqueue.p12906.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.hash.p42578.Solution" />
-        <item itemvalue="Application.org.codingtest.score_kit.hash.p42577.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +305,8 @@
       <workItem from="1732239040368" duration="2196000" />
       <workItem from="1732250551053" duration="20000" />
       <workItem from="1732785433258" duration="706000" />
-      <workItem from="1733384933063" duration="3308000" />
+      <workItem from="1733384933063" duration="5138000" />
+      <workItem from="1733705041506" duration="1195000" />
     </task>
     <servers />
   </component>
