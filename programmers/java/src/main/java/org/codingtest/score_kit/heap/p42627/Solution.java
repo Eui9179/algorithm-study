@@ -66,7 +66,6 @@ jobs	return
 [[0, 1], [0, 2], [1, 6]] => 4
  */
 
-import java.util.Arrays;
 import java.util.PriorityQueue;
 
 class Solution {

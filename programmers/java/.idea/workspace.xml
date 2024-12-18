@@ -7,6 +7,7 @@
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/score_kit/heap/p42627/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/score_kit/heap/p42627/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +125,7 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.score_kit.heap.p42627.Solution">
+  <component name="RunManager" selected="Application.org.codingtest.score_kit.heap.p42628.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.stackandqueue.p42584.Solution" />
       <module name="java.main" />
@@ -164,6 +165,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.codingtest.score_kit.heap.p42628.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.heap.p42628.Solution" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.score_kit.heap.p42628.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.codingtest.score_kit.stackandqueue.p42583.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.stackandqueue.p42583.Solution" />
       <module name="java.main" />
@@ -177,26 +191,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.codingtest.score_kit.stackandqueue.p42587.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.stackandqueue.p42587.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.score_kit.stackandqueue.p42587.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.score_kit.heap.p42628.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.heap.p42627.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.heap.p42626.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.stackandqueue.p42583.Solution" />
-        <item itemvalue="Application.org.codingtest.score_kit.stackandqueue.p42587.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +314,7 @@
       <workItem from="1733705041506" duration="15201000" />
       <workItem from="1733822223530" duration="808000" />
       <workItem from="1734398992694" duration="906000" />
-      <workItem from="1734483867318" duration="9089000" />
+      <workItem from="1734483867318" duration="11297000" />
     </task>
     <servers />
   </component>
