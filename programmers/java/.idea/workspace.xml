@@ -7,6 +7,7 @@
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/score_kit/sort2/p42746/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/score_kit/sort2/p42746/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,7 @@
     "Application.org.codingtest.level1.p161989.Solution.executor": "Run",
     "Application.org.codingtest.level1.p172928.Solution.executor": "Run",
     "Application.org.codingtest.level1.p340199.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.exhausivesearch.p86491.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.hash.p1845.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.hash.p42576.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.hash.p42577.Solution.executor": "Run",
@@ -87,6 +89,7 @@
     "Application.org.codingtest.score_kit.p42583.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.sort.p42746.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.sort.p42748.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.sort2.p42746.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.sort2.p42748.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.stackandqueue.p12906.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.stackandqueue.p12909.Solution.executor": "Run",
@@ -126,13 +129,13 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.score_kit.sort2.p42748.Solution">
+  <component name="RunManager" selected="Application.org.codingtest.score_kit.exhausivesearch.p86491.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.stackandqueue.p42584.Solution" />
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.sort2.p42747.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.score_kit.stackandqueue.p42584.*" />
+          <option name="PATTERN" value="org.codingtest.score_kit.sort2.p42747.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,25 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.codingtest.score_kit.heap.p42626.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.heap.p42626.Solution" />
+    <configuration name="org.codingtest.score_kit.exhausivesearch.p86491.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.exhausivesearch.p86491.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.score_kit.heap.p42626.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.codingtest.score_kit.heap.p42627.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.heap.p42627.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.score_kit.heap.p42627.*" />
+          <option name="PATTERN" value="org.codingtest.score_kit.exhausivesearch.p86491.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,6 +162,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.codingtest.score_kit.heap.p42628.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.codingtest.score_kit.sort2.p42746.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.sort2.p42746.Solution" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.score_kit.sort2.p42746.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.score_kit.exhausivesearch.p86491.Solution" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.org.codingtest.score_kit.sort2.p42746.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.sort2.p42748.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.heap.p42628.Solution" />
-        <item itemvalue="Application.org.codingtest.score_kit.heap.p42627.Solution" />
-        <item itemvalue="Application.org.codingtest.score_kit.heap.p42626.Solution" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -317,6 +320,10 @@
       <workItem from="1734398992694" duration="906000" />
       <workItem from="1734483867318" duration="11684000" />
       <workItem from="1735199500613" duration="1628000" />
+      <workItem from="1735526766572" duration="3645000" />
+      <workItem from="1735779718411" duration="4023000" />
+      <workItem from="1739172759232" duration="2654000" />
+      <workItem from="1739235049480" duration="774000" />
     </task>
     <servers />
   </component>

@@ -18,30 +18,27 @@ numbers	return
  */
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 class Solution {
+
+    public static void main(String[] args) {
+        System.out.println(new Solution().solution(new int[]{3, 30, 34}));
+        System.out.println(new Solution().solution(new int[]{929, 949}));
+        System.out.println(new Solution().solution(new int[]{3, 30, 34, 5, 9}));
+        System.out.println(new Solution().solution(new int[]{101, 10, 232, 23}));
+        System.out.println(new Solution().solution(new int[]{1000, 111, 110, 101, 100, 11, 10, 1, 0}));
+    }
+
     public String solution(int[] numbers) {
-        String answer = "";
 
-        // [3, 30, 34, 5, 9]
+        if (Arrays.stream(numbers).sum() == 0) return "0";
 
-        // 자릿수가 다르면, 각 자리수를 비교하고 마지막까지 같으면 마지막 숫자의 값이 마지막 - 1 의 값보다 작으면 짧은 쪽이 큼
-
-        String[] array = Arrays.stream(numbers)
+        String[] numbersStr = Arrays.stream(numbers)
                 .mapToObj(String::valueOf)
                 .toArray(String[]::new);
 
-        Arrays.sort(array, (o1, o2) -> {
+        Arrays.sort(numbersStr, (s1, s2) -> Integer.parseInt(s2 + s1) - Integer.parseInt(s1 + s2));
 
-        });
-
-
-        // 233 23
-
-        //23223
-        // 9 5 34 3 30
-
-        return answer;
+        return String.join("", numbersStr);
     }
 }
