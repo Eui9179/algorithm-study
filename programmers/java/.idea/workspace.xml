@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +71,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Practice.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.org.codingtest.level1.p135808.Solution.executor": "Run",
     "Application.org.codingtest.level1.p138477.Solution.executor": "Run",
@@ -77,6 +81,7 @@
     "Application.org.codingtest.level1.p161989.Solution.executor": "Run",
     "Application.org.codingtest.level1.p172928.Solution.executor": "Run",
     "Application.org.codingtest.level1.p340199.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.exhausivesearch.p42839.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.exhausivesearch.p42840.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.exhausivesearch.p86491.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.hash.p1845.Solution.executor": "Run",
@@ -113,7 +118,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -129,13 +134,39 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.score_kit.exhausivesearch.p42840.Solution">
+  <component name="RunManager" selected="Application.Practice">
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.Practice" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.score_kit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.sort2.p42747.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.codingtest.score_kit.sort2.p42747.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.codingtest.score_kit.exhausivesearch.p42839.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.exhausivesearch.p42839.Solution" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.score_kit.exhausivesearch.p42839.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,39 +200,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.codingtest.score_kit.sort2.p42746.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.sort2.p42746.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.score_kit.sort2.p42746.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.codingtest.score_kit.sort2.p42748.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.sort2.p42748.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.score_kit.sort2.p42748.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice" />
+        <item itemvalue="Application.org.codingtest.score_kit.exhausivesearch.p42839.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.exhausivesearch.p42840.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.exhausivesearch.p86491.Solution" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.org.codingtest.score_kit.sort2.p42746.Solution" />
-        <item itemvalue="Application.org.codingtest.score_kit.sort2.p42748.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +328,10 @@
       <workItem from="1735526766572" duration="3645000" />
       <workItem from="1735779718411" duration="4023000" />
       <workItem from="1739172759232" duration="2654000" />
-      <workItem from="1739235049480" duration="3497000" />
+      <workItem from="1739235049480" duration="3569000" />
+      <workItem from="1739406687315" duration="5850000" />
+      <workItem from="1739422942487" duration="2720000" />
+      <workItem from="1739507443817" duration="4195000" />
     </task>
     <servers />
   </component>
