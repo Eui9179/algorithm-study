@@ -7,6 +7,7 @@
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/score_kit/exhausivesearch/p86971/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/score_kit/exhausivesearch/p86971/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +79,14 @@
     "Application.org.codingtest.level1.p161989.Solution.executor": "Run",
     "Application.org.codingtest.level1.p172928.Solution.executor": "Run",
     "Application.org.codingtest.level1.p340199.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.bfsdfs.p443162.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.exhausivesearch.p42839.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.exhausivesearch.p42840.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.exhausivesearch.p42842.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.exhausivesearch.p84512.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.exhausivesearch.p86491.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.exhausivesearch.p86971.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.greedy.p42860.Solution.executor": "Debug",
     "Application.org.codingtest.score_kit.greedy.p42862.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.hash.p1845.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.hash.p42576.Solution.executor": "Run",
@@ -119,7 +122,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -135,26 +138,13 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.score_kit.greedy.p42862.Solution">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.exhausivesearch.p87946.Solution" />
+  <component name="RunManager" selected="Application.org.codingtest.score_kit.exhausivesearch.p86971.Solution">
+    <configuration name="org.codingtest.score_kit.bfsdfs.p443162.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.bfsdfs.p443162.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.score_kit.exhausivesearch.p87946.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.codingtest.score_kit.exhausivesearch.p42842.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.exhausivesearch.p42842.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.score_kit.exhausivesearch.p42842.*" />
+          <option name="PATTERN" value="org.codingtest.score_kit.bfsdfs.p443162.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,6 +178,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.codingtest.score_kit.greedy.p42860.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.greedy.p42860.Solution" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.score_kit.greedy.p42860.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.codingtest.score_kit.greedy.p42862.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.greedy.p42862.Solution" />
       <module name="java.main" />
@@ -203,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.score_kit.exhausivesearch.p86971.Solution" />
+        <item itemvalue="Application.org.codingtest.score_kit.bfsdfs.p443162.Solution" />
+        <item itemvalue="Application.org.codingtest.score_kit.greedy.p42860.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.greedy.p42862.Solution" />
         <item itemvalue="Application.org.codingtest.score_kit.exhausivesearch.p84512.Solution" />
-        <item itemvalue="Application.org.codingtest.score_kit.exhausivesearch.p86971.Solution" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.org.codingtest.score_kit.exhausivesearch.p42842.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +341,8 @@
       <workItem from="1740013228199" duration="10185000" />
       <workItem from="1740031332986" duration="5353000" />
       <workItem from="1740041573608" duration="600000" />
-      <workItem from="1740098712620" duration="3008000" />
+      <workItem from="1740098712620" duration="12787000" />
+      <workItem from="1741568428379" duration="6665000" />
     </task>
     <servers />
   </component>
