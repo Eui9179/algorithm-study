@@ -1,7 +1,5 @@
 package org.codingtest.score_kit.exhausivesearch.p84512;
 
-import java.util.List;
-
 /*
 사전에 알파벳 모음 'A', 'E', 'I', 'O', 'U'만을 사용하여 만들 수 있는, 길이 5 이하의 모든 단어가 수록되어 있습니다.
 사전에서 첫 번째 단어는 "A"이고, 그다음은 "AA"이며, 마지막 단어는 "UUUUU"입니다.
@@ -39,25 +37,35 @@ word 	result
  */
 class Solution {
 
-    private static int count;
+    private int count = 0;
+    private int seq = 0;
+    private boolean found = false;
+
     public static void main(String[] args) {
-        System.out.println(new Solution().solution("AEIOU"));
+        System.out.println(new Solution().solution("I"));
     }
 
     public int solution(String word) {
-        int answer = 0;
-        rec(word, new String[]{"A", "E", "I", "O", "U"}, new StringBuilder(), 0);
-        return answer;
+        rec(word, new String[]{"A", "E", "I", "O", "U"}, new StringBuilder());
+        return count;
     }
 
-    public void rec(String word, String[] aeiou, StringBuilder result, int depth) {
+    public void rec(String word, String[] aeiou, StringBuilder result) {
+        if (found) return;
+
         if (word.contentEquals(result)) {
+            count = seq;
+            found = true;
             return;
         }
 
-        for (int i = 0; i < aeiou.length; i++) {
-            result.append(aeiou[depth]);
-            rec(word, aeiou, result, depth);
+        if (result.length() == aeiou.length) {
+            return;
+        }
+
+        for (String s : aeiou) {
+            seq++;
+            rec(word, aeiou, result.append(s));
             result.deleteCharAt(result.length() - 1);
         }
     }
