@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/level1/p388351/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/level1/p388351/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +71,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "Application.Practice.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.org.codingtest.level1.p135808.Solution.executor": "Run",
@@ -78,6 +82,8 @@
     "Application.org.codingtest.level1.p161989.Solution.executor": "Run",
     "Application.org.codingtest.level1.p172928.Solution.executor": "Run",
     "Application.org.codingtest.level1.p340199.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p388351.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.bfsdfs.p43164.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.bfsdfs.p443162.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.exhausivesearch.p1844.Solution.executor": "Run",
     "Application.org.codingtest.score_kit.exhausivesearch.p42839.Solution.executor": "Run",
@@ -112,6 +118,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/eclee/Workspace/eclee/algorithm-study/programmers/java/build.gradle",
@@ -123,7 +130,8 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
+    "settings.editor.selected.configurable": "terminal",
+    "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -139,13 +147,13 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.score_kit.exhausivesearch.p43163.Solution">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.bfsdfs.p43165.Solution" />
+  <component name="RunManager" selected="Application.org.codingtest.level1.p388351.Solution">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.Main" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.score_kit.bfsdfs.p43165.*" />
+          <option name="PATTERN" value="org.codingtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +161,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.codingtest.score_kit.exhausivesearch.p1844.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.exhausivesearch.p1844.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level1.p389478.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.score_kit.exhausivesearch.p1844.*" />
+          <option name="PATTERN" value="org.codingtest.level1.p389478.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.codingtest.level1.p388351.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level1.p388351.Solution" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.level1.p388351.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.codingtest.score_kit.bfsdfs.p43164.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.bfsdfs.p43164.Solution" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.score_kit.bfsdfs.p43164.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,39 +213,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.codingtest.score_kit.exhausivesearch.p84512.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.exhausivesearch.p84512.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.score_kit.exhausivesearch.p84512.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.codingtest.score_kit.exhausivesearch.p86971.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.score_kit.exhausivesearch.p86971.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.score_kit.exhausivesearch.p86971.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.codingtest.score_kit.exhausivesearch.p43163.Solution" />
-        <item itemvalue="Application.org.codingtest.score_kit.exhausivesearch.p1844.Solution" />
-        <item itemvalue="Application.org.codingtest.score_kit.exhausivesearch.p84512.Solution" />
+        <item itemvalue="Application.org.codingtest.level1.p388351.Solution" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.org.codingtest.score_kit.exhausivesearch.p86971.Solution" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.org.codingtest.score_kit.bfsdfs.p43164.Solution" />
+        <item itemvalue="Application.org.codingtest.score_kit.exhausivesearch.p43163.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +354,12 @@
       <workItem from="1741568428379" duration="6948000" />
       <workItem from="1741657732409" duration="3343000" />
       <workItem from="1741738666520" duration="7944000" />
-      <workItem from="1741824575172" duration="4230000" />
+      <workItem from="1741824575172" duration="4383000" />
+      <workItem from="1742520271213" duration="2062000" />
+      <workItem from="1742532866441" duration="643000" />
+      <workItem from="1743035135119" duration="2012000" />
+      <workItem from="1743383229229" duration="3203000" />
+      <workItem from="1745976538996" duration="5045000" />
     </task>
     <servers />
   </component>
