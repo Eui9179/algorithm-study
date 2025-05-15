@@ -78,6 +78,7 @@
     "Application.org.codingtest.level1.p160586.Solution.executor": "Run",
     "Application.org.codingtest.level1.p161989.Solution.executor": "Run",
     "Application.org.codingtest.level1.p172928.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p178871.Solution.executor": "Run",
     "Application.org.codingtest.level1.p250121.Solution.executor": "Run",
     "Application.org.codingtest.level1.p250137.Solution.executor": "Run",
     "Application.org.codingtest.level1.p340198.Solution.executor": "Run",
@@ -147,13 +148,13 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.codingtest.level1.p250121.Solution">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level1.p389478.Solution" />
+  <component name="RunManager" selected="Application.org.codingtest.level1.p178871.Solution">
+    <configuration name="org.codingtest.level1.p178871.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.level1.p178871.Solution" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level1.p389478.*" />
+          <option name="PATTERN" value="org.codingtest.level1.p178871.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.codingtest.level1.p178871.Solution" />
         <item itemvalue="Application.org.codingtest.level1.p250121.Solution" />
         <item itemvalue="Application.org.codingtest.level1.p250137.Solution" />
         <item itemvalue="Application.org.codingtest.level1.p340198.Solution" />
         <item itemvalue="Application.org.codingtest.level1.p388351.Solution" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +364,8 @@
       <workItem from="1746583450552" duration="2053000" />
       <workItem from="1746755876293" duration="1492000" />
       <workItem from="1747183778572" duration="7123000" />
-      <workItem from="1747199840724" duration="679000" />
+      <workItem from="1747199840724" duration="995000" />
+      <workItem from="1747274831651" duration="486000" />
     </task>
     <servers />
   </component>
