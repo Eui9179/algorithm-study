@@ -19,8 +19,6 @@ class Solution {
                 if (sets.contains(sum)) continue;
                 sets.add(sum);
             }
-
-            System.out.println(sets);
         }
 
         return sets.size() + 1;

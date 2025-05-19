@@ -3,18 +3,6 @@ package org.codingtest.level2.p12949;
 import java.util.Arrays;
 
 class Solution {
-    public static void main(String[] args) {
-        new Solution().solution(
-                new int[][]{
-                        {3, 3, 3},
-                        {3, 3, 3}
-                },
-                new int[][]{
-                        {1, 4},
-                        {3, 2},
-                        {4, 1}
-                });
-    }
 
     public int[][] solution(int[][] arr1, int[][] arr2) {
         int[][] answer = new int[arr1.length][arr2[0].length];

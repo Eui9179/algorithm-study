@@ -4,9 +4,6 @@ import java.util.*;
 
 class Solution {
 
-    public static void main(String[] args) {
-        new Solution().solution("}]()[{");
-    }
     public int solution(String s) {
         int answer = 0;
         int cycle = s.length();

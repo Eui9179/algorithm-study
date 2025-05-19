@@ -1,12 +1,6 @@
 package org.codingtest.level2.p87390;
 
-import java.util.Arrays;
-
 class Solution {
-
-    public static void main(String[] args) {
-        System.out.println(Arrays.toString(new Solution().solution(3, 2, 5)));
-    }
 
     public int[] solution(int n, long left, long right) {
         int size = (int) (right - left + 1);
