@@ -7,6 +7,7 @@
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/book/part2/ch3/P92.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/book/part2/ch3/P92.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,77 +67,80 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.level1.p135808.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.level1.p138477.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.level1.p140108.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.level1.p155652.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.level1.p160586.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.level1.p161989.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.level1.p172928.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.level1.p178871.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.level1.p250121.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.level1.p250137.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.level1.p340198.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.level1.p340199.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.level1.p388351.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.level2.p129132.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.bfsdfs.p43164.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.bfsdfs.p443162.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.exhausivesearch.p1844.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.exhausivesearch.p42839.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.exhausivesearch.p42840.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.exhausivesearch.p42842.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.exhausivesearch.p43163.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.exhausivesearch.p84512.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.exhausivesearch.p86491.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.exhausivesearch.p86971.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.greedy.p42860.Solution.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.org.codingtest.score_kit.greedy.p42862.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.hash.p1845.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.hash.p42576.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.hash.p42577.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.hash.p42578.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.heap.p42626.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.heap.p42627.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.heap.p42628.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.p42583.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.sort.p42746.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.sort.p42748.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.sort2.p42746.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.sort2.p42748.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.stackandqueue.p12906.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.stackandqueue.p12909.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.stackandqueue.p42583.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.stackandqueue.p42586.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.codingtest.score_kit.stackandqueue.p42587.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/eclee/Workspace/eclee/algorithm-study/programmers/java/build.gradle&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.P100.executor": "Run",
+    "Application.P92.executor": "Run",
+    "Application.P97.executor": "Run",
+    "Application.Practice.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p135808.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p138477.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p140108.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p155652.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p160586.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p161989.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p172928.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p178871.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p250121.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p250137.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p340198.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p340199.Solution.executor": "Run",
+    "Application.org.codingtest.level1.p388351.Solution.executor": "Run",
+    "Application.org.codingtest.level2.p129132.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.bfsdfs.p43164.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.bfsdfs.p443162.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.exhausivesearch.p1844.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.exhausivesearch.p42839.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.exhausivesearch.p42840.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.exhausivesearch.p42842.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.exhausivesearch.p43163.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.exhausivesearch.p84512.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.exhausivesearch.p86491.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.exhausivesearch.p86971.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.greedy.p42860.Solution.executor": "Debug",
+    "Application.org.codingtest.score_kit.greedy.p42862.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.hash.p1845.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.hash.p42576.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.hash.p42577.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.hash.p42578.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.heap.p42626.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.heap.p42627.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.heap.p42628.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.p42583.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.sort.p42746.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.sort.p42748.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.sort2.p42746.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.sort2.p42748.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.stackandqueue.p12906.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.stackandqueue.p12909.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.stackandqueue.p42583.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.stackandqueue.p42586.Solution.executor": "Run",
+    "Application.org.codingtest.score_kit.stackandqueue.p42587.Solution.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/eclee/Workspace/eclee/algorithm-study/programmers/java/build.gradle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\outda\leui\workspace\algorithm-study\programmers\java\src\main\java\org\codingtest" />
@@ -149,7 +153,33 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P92">
+  <component name="RunManager" selected="Application.P110">
+    <configuration name="P100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.book.part2.ch3.P100" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.book.part2.ch3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.book.part2.ch4.P110" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.book.part2.ch4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="P92" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.book.part2.ch3.P92" />
       <module name="java.main" />
@@ -163,38 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level2.p12953.Solution" />
+    <configuration name="P97" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.book.part2.ch3.P97" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.level2.p12953.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.codingtest.level1.p178871.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level1.p178871.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.level1.p178871.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.codingtest.level1.p250121.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level1.p250121.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.level1.p250121.*" />
+          <option name="PATTERN" value="org.codingtest.book.part2.ch3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P110" />
+        <item itemvalue="Application.P100" />
+        <item itemvalue="Application.P97" />
         <item itemvalue="Application.P92" />
         <item itemvalue="Application.org.codingtest.level2.p129132.Solution" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.org.codingtest.level1.p178871.Solution" />
-        <item itemvalue="Application.org.codingtest.level1.p250121.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +374,7 @@
       <workItem from="1747645683777" duration="2028000" />
       <workItem from="1748223662963" duration="2356000" />
       <workItem from="1748824213418" duration="2526000" />
-      <workItem from="1754532631463" duration="1700000" />
+      <workItem from="1754532631463" duration="5376000" />
     </task>
     <servers />
   </component>

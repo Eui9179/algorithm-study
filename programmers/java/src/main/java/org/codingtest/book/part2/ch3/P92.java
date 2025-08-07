@@ -9,21 +9,13 @@ public class P92 {
     }
 
     public static int solution(int[] nums, int m, int k) {
-        int answer = 0;
         Arrays.sort(nums);
 
-        int count = 0;
+        int first = nums[nums.length - 1];
+        int second = nums[nums.length - 2];
 
-        for (int i = 0; i < m; i++) {
-            if (count < k) {
-                answer += nums[nums.length - 1];
-                count++;
-            } else {
-                count = 0;
-                answer += nums[nums.length - 2];
-            }
-        }
+        int count = (k * (m / (k + 1))) + (m % (k + 1));
 
-        return answer;
+        return (count * first) + (second * (m - count)); // 중간에 들어가는 개수
     }
 }
