@@ -7,7 +7,6 @@
     <list default="true" id="003394be-cef1-459d-9b00-263b22340e59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingtest/book/part2/ch3/P92.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingtest/book/part2/ch3/P92.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +70,9 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.P100.executor": "Run",
+    "Application.P110.executor": "Run",
+    "Application.P114.executor": "Run",
+    "Application.P116.executor": "Run",
     "Application.P92.executor": "Run",
     "Application.P97.executor": "Run",
     "Application.Practice.executor": "Run",
@@ -153,7 +155,7 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P110">
+  <component name="RunManager" selected="Application.P116">
     <configuration name="P100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.book.part2.ch3.P100" />
       <module name="java.main" />
@@ -180,12 +182,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P92" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.book.part2.ch3.P92" />
+    <configuration name="P114" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.book.part2.ch4.P114" />
       <module name="java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingtest.book.part2.ch3.*" />
+          <option name="PATTERN" value="org.codingtest.book.part2.ch4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P116" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.book.part2.ch4.P116" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.book.part2.ch4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,26 +221,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.codingtest.level2.p129132.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.level2.p129132.Solution" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.level2.p129132.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P116" />
+        <item itemvalue="Application.P114" />
         <item itemvalue="Application.P110" />
         <item itemvalue="Application.P100" />
         <item itemvalue="Application.P97" />
-        <item itemvalue="Application.P92" />
-        <item itemvalue="Application.org.codingtest.level2.p129132.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +376,8 @@
       <workItem from="1747645683777" duration="2028000" />
       <workItem from="1748223662963" duration="2356000" />
       <workItem from="1748824213418" duration="2526000" />
-      <workItem from="1754532631463" duration="5376000" />
+      <workItem from="1754532631463" duration="5647000" />
+      <workItem from="1754616017763" duration="2020000" />
     </task>
     <servers />
   </component>
