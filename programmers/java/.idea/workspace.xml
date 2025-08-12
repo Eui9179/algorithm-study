@@ -75,6 +75,7 @@
     "Application.P116.executor": "Run",
     "Application.P119.executor": "Run",
     "Application.P142.executor": "Run",
+    "Application.P147.executor": "Run",
     "Application.P92.executor": "Run",
     "Application.P97.executor": "Run",
     "Application.Practice.executor": "Run",
@@ -157,20 +158,7 @@
       <recent name="org.codingtest.level0.p120898" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P142">
-    <configuration name="P110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingtest.book.part2.ch4.P110" />
-      <module name="java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.codingtest.book.part2.ch4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.P147">
     <configuration name="P114" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codingtest.book.part2.ch4.P114" />
       <module name="java.main" />
@@ -223,13 +211,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P147" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingtest.book.part2.ch5.P147" />
+      <module name="java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingtest.book.part2.ch5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P147" />
         <item itemvalue="Application.P142" />
         <item itemvalue="Application.P119" />
         <item itemvalue="Application.P116" />
         <item itemvalue="Application.P114" />
-        <item itemvalue="Application.P110" />
       </list>
     </recent_temporary>
   </component>
@@ -380,7 +381,8 @@
       <workItem from="1748824213418" duration="2526000" />
       <workItem from="1754532631463" duration="5647000" />
       <workItem from="1754616017763" duration="2735000" />
-      <workItem from="1754873500117" duration="9432000" />
+      <workItem from="1754873500117" duration="9653000" />
+      <workItem from="1754962548101" duration="499000" />
     </task>
     <servers />
   </component>
@@ -405,6 +407,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/codingtest/level1/p136798/Solution.java</url>
           <line>55</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/codingtest/book/part2/ch5/P142.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
