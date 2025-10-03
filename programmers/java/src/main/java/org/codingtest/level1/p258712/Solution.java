@@ -1,19 +1,8 @@
 package org.codingtest.level1.p258712;
 
 import java.util.*;
-import java.util.stream.Collectors;
-
-import static java.util.Comparator.*;
-import static java.util.stream.Collectors.*;
 
 class Solution {
-    public static void main(String[] args) {
-        Map<String, Long> freq = new HashMap<>();
-        List<String> topTen = freq.keySet().stream()
-                .sorted(comparing(freq::get).reversed())
-                .limit(10)
-                .collect(toList());
-    }
     public int solution(String[] friends, String[] gifts) {
         int answer = 0;
 
