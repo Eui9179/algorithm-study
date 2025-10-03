@@ -14,23 +14,25 @@ public class P198 {
         Arrays.sort(array);
 
         for (int target : checkList) {
-            int start = 0;
-            int end = array.length - 1;
-            while (start <= end) {
-                int mid = (start + end) / 2;
-                if (array[mid] == target) {
-                    result.add("Y");
-                    break;
-                } else if (array[mid] > target) {
-                    end = mid - 1;
-                } else {
-                    start = mid + 1;
-                }
-            }
-            if (start > end) {
-                result.add("N");
-            }
+            if (binarySearch(array, target)) result.add("Y");
+            else result.add("N");
         }
         return result;
+    }
+
+    private static boolean binarySearch(int[] array, int target) {
+        int start = 0;
+        int end = array.length - 1;
+        while (start <= end) {
+            int mid = (start + end) / 2;
+            if (array[mid] == target) {
+                return true;
+            } else if (array[mid] > target) {
+                end = mid - 1;
+            } else {
+                start = mid + 1;
+            }
+        }
+        return false;
     }
 }
