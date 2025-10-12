@@ -33,7 +33,7 @@ public class DijkstraExample {
         while (!pq.isEmpty()) {
             Node node = pq.poll();
 
-//            if (result[node.index] < node.distance) continue;
+            if (result[node.index] < node.distance) continue;
 
             for (Node nextNode : nodeMap.get(node.index)) {
                 int cost = result[node.index] + nextNode.distance;
