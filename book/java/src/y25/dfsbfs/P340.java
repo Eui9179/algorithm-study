@@ -10,6 +10,17 @@ public class P340 {
                 {2, 3},
                 {2, 4}
         });
+        solution(4, 2, 1, new int[][]{
+                {1, 2},
+                {1, 3},
+                {1, 4}
+        });
+        solution(4, 1, 1, new int[][]{
+                {1, 2},
+                {1, 3},
+                {2, 3},
+                {2, 4}
+        });
 
     }
 
@@ -58,11 +69,15 @@ public class P340 {
         }
         System.out.println(Arrays.toString(distances));
 
+        boolean isExist = false;
         for (int i = 1; i < distances.length; i++) {
             if (distances[i] == k) {
                 System.out.println(i);
+                isExist = true;
             }
         }
+
+        if (!isExist) System.out.println(-1);
     }
 
     private static class City implements Comparable<City> {
