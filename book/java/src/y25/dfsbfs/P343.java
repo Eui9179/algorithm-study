@@ -57,6 +57,7 @@ public class P343 {
             }
 
             answer = Math.max(answer, count);
+
             for (int[] w : wall) {
                 map[w[0]][w[1]] = 0;
             }
@@ -74,8 +75,6 @@ public class P343 {
             while (!queue.isEmpty()) {
                 int[] current = queue.remove(0);
 
-                map[current[0]][current[1]] = 2;
-
                 for (int[] direction : directions) {
                     int nextI = current[0] + direction[0];
                     int nextJ = current[1] + direction[1];
@@ -85,6 +84,7 @@ public class P343 {
                     }
 
                     if (map[nextI][nextJ] == 0) {
+                        map[nextI][nextJ] = 2;
                         queue.add(new int[]{nextI, nextJ});
                     }
                 }
