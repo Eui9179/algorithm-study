@@ -7,13 +7,16 @@ public class P161989 {
         int sectionIndex = 0;
         while (sectionIndex < section.length) {
             int start = section[sectionIndex];
-            while (sectionIndex < section.length &&
-                    section[sectionIndex] <= start + (m - 1)) {
+            while (isBoundary(sectionIndex, section, start, m)) {
                 sectionIndex++;
             }
             answer++;
         }
 
         return answer;
+    }
+    private isBoundary(int sectionIndex, int[] section, int start, int m) {
+        return sectionIndex < section.length &&
+                    section[sectionIndex] <= start + (m - 1)
     }
 }
