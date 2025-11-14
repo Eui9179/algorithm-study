@@ -1,12 +1,10 @@
 package y25.level1;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class P160586 {
     public int[] solution(String[] keymap, String[] targets) {
+
         List<Integer> answer = new ArrayList<>();
 
         Map<String, Integer> keyMap = new HashMap<>();
