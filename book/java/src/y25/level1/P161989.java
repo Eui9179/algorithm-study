@@ -15,8 +15,8 @@ public class P161989 {
 
         return answer;
     }
-    private isBoundary(int sectionIndex, int[] section, int start, int m) {
+    private boolean isBoundary(int sectionIndex, int[] section, int start, int m) {
         return sectionIndex < section.length &&
-                    section[sectionIndex] <= start + (m - 1)
+                section[sectionIndex] <= start + (m - 1);
     }
 }
