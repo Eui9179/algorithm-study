@@ -15,7 +15,7 @@ public class P159994 {
         for (String c2 : cards2) {
             queue2.offer(c2);
         }
-
+        //양 큐 하나씩 확인
         for (String g: goal) {
             if (!queue1.isEmpty() && queue1.peek().equals(g)) {
                 queue1.poll();
