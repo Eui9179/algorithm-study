@@ -37,11 +37,11 @@ public class P350 {
             for (int i = 0; i < kind.size(); i++) {
                 String k = kind.get(i);
                 switch (k) {
-                    case "+" -> result += nums[i + 1];
-                    case "-" -> result -= nums[i + 1];
-                    case "*" -> result *= nums[i + 1];
-                    case "/" -> result = nums[i + 1] < 0 ?
-                            -(result / Math.abs(nums[i + 1])) : result / nums[i + 1];
+//                    case "+" -> result += nums[i + 1];
+//                    case "-" -> result -= nums[i + 1];
+//                    case "*" -> result *= nums[i + 1];
+//                    case "/" -> result = nums[i + 1] < 0 ?
+//                            -(result / Math.abs(nums[i + 1])) : result / nums[i + 1];
                 }
             }
 

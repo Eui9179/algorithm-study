@@ -9,7 +9,7 @@ public class Test {
     public static void main(String[] args) {
         PriorityQueue<Edge> priorityQueue = new PriorityQueue<>();
         HashMap<String, ArrayList<Edge>> graph = new HashMap<>();
-        graph.put("A", new ArrayList<>(Arrays.asList(new Edge(8, "B"))));
+        graph.put("A", new ArrayList<>(Arrays.asList(new Edge(8, "test.B"))));
 
     }
 }

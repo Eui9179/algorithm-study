@@ -5,9 +5,9 @@ import java.util.*;
 public class DFS {
     public static Map<String, List<String>> genMap() {
         return Map.of(
-                "A", List.of("B", "C"),
-                "B", List.of("D", "E"),
-                "C", List.of("F", "G"),
+                "A", List.of("test.B", "test.C"),
+                "test.B", List.of("D", "E"),
+                "test.C", List.of("F", "G"),
                 "D", List.of(),
                 "E", List.of(),
                 "F", List.of(),
