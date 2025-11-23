@@ -1,6 +1,9 @@
-package y25.binarysearch;
+package y25.level1;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class P372 {
     public static void main(String[] args) {
