@@ -1,17 +1,7 @@
 package y25.level1;
 
 import java.util.*;
-/*
-["AN", "CF", "MJ", "RT", "NA"] 	[5, 3, 2, 7, 5] 	"TCMA"
-["TR", "RT", "TR"] 	[7, 1, 3] 	"RCJA"
-1 	매우 비동의 3
-2 	비동의 2
-3 	약간 비동의 1
-4 	모르겠음 0
-5 	약간 동의 -1
-6 	동의 -2
-7 	매우 동의 -3
- */
+
 public class P118666 {
 
     public String solution(String[] survey, int[] choices) {
