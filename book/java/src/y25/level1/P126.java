@@ -7,20 +7,6 @@ public class P126 {
     }
 
     public int[] solution(int n, int[] stages) {
-        // 실패율 = 스테이지 머물고 있는 사람 / 도전한 사람
-        // n = 7
-        // 1 2 2 2 3 3 4 6
-        // 5 7
-        // 1 -> 8
-        // 2 -> 7
-        // 3 -> 4
-
-        // 큐    [6]
-        // 대기   [6]
-        // 1은 (1 빼고 나머지) /(큐 + 대기) 도전한 사람
-        // 1 전부 pop
-
-        // 2는
         List<Integer> answer = new ArrayList<>();
         List<StageFailRate> failRates = new ArrayList<>();
 
@@ -45,10 +31,10 @@ public class P126 {
             }
         }
 
+        // 마지막 숫자 처리
         int failCount = 0;
         int total = queue.size();
         int stage = queue.peek();
-
         if (!queue.isEmpty() && queue.peek() <= n) {
             while (!queue.isEmpty() && queue.peek() <= n) {
                 failCount++;
