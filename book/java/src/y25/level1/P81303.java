@@ -19,26 +19,31 @@ public class P81303 {
             String direction = split[0];
             String offset;
 
-            if (direction.equals("D")) {
-                offset = split[1];
-                k += Integer.parseInt(offset);
-            } else if (direction.equals("U")) {
-                offset = split[1];
-                k -= Integer.parseInt(offset);
-            } else if (direction.equals("C")) {
-                int[] push = list.remove(k);
-                push[1] = k;
-                deleteHistory.push(push);
-                if (k >= list.size())
-                    k = list.size() - 1;
-            } else {
-                int[] pop = deleteHistory.pop();
-                if (pop[1] >= list.size()) {
-                    list.add(pop);
-                } else {
-                    list.add(pop[1], pop);
+            switch (direction) {
+                case "D" -> {
+                    offset = split[1];
+                    k += Integer.parseInt(offset);
                 }
-                if (pop[1] <= k) k++;
+                case "U" -> {
+                    offset = split[1];
+                    k -= Integer.parseInt(offset);
+                }
+                case "C" -> {
+                    int[] push = list.remove(k);
+                    push[1] = k;
+                    deleteHistory.push(push);
+                    if (k >= list.size())
+                        k = list.size() - 1;
+                }
+                default -> {
+                    int[] pop = deleteHistory.pop();
+                    if (pop[1] >= list.size()) {
+                        list.add(pop);
+                    } else {
+                        list.add(pop[1], pop);
+                    }
+                    if (pop[1] <= k) k++;
+                }
             }
         }
 
