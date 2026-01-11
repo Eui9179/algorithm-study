@@ -1,4 +1,4 @@
-package y24.implementations.practice;
+package y25.level1;
 
 import java.util.Scanner;
 

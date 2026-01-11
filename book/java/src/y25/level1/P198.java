@@ -1,4 +1,4 @@
-package y25.binarysearch;
+package y25.level1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
