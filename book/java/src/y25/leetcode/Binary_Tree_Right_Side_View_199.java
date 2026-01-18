@@ -1,6 +1,5 @@
 package y25.leetcode;
 
-import javax.swing.tree.TreeNode;
 import java.util.*;
 
 public class Binary_Tree_Right_Side_View_199 {
@@ -56,6 +55,25 @@ public class Binary_Tree_Right_Side_View_199 {
         TreeNodeWithDepth(TreeNode treeNode, int depth) {
             this.treeNode = treeNode;
             this.depth = depth;
+        }
+    }
+
+    public static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
         }
     }
 }
