@@ -1,4 +1,4 @@
-package y25.leetcode;
+package y25.leetcode.week1;
 
 import java.util.*;
 
