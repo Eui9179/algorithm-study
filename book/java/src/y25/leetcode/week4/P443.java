@@ -30,13 +30,11 @@ class P443 {
         }
 
         if (p1 < p2) {
+            chars[write++] = chars[p1];
             if (p2 - p1 > 1) {
-                chars[write++] = chars[p1];
                 for (char c : String.valueOf(p2 - p1).toCharArray()) {
                     chars[write++] = c;
                 }
-            } else if (p2 - p1 == 1) {
-                chars[write++] = chars[p1];
             }
         }
 
