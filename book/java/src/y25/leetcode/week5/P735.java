@@ -17,21 +17,7 @@ public class P735 {
 
         for (int a : asteroids) {
             boolean isDistroied = false;
-            if (a > 0) {
-                while (!stack.isEmpty() &&
-                        stack.get(stack.size() - 1) < 0 &&
-                        Math.abs(stack.get(stack.size() - 1)) <= a
-                ) {
-                    int remove = stack.remove(stack.size() - 1);
-                    if (remove == a) {
-                        isDistroied = true;
-                        break;
-                    }
-                }
-                if (!stack.isEmpty() && Math.abs(stack.get(stack.size() - 1)) > a) {
-                    isDistroied = true;
-                }
-            } else {
+            if (a < 0) {
                 while (!stack.isEmpty() &&
                         stack.get(stack.size() - 1) > 0 &&
                         stack.get(stack.size() - 1) <= Math.abs(a)
