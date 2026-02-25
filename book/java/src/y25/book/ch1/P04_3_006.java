@@ -1,6 +1,6 @@
 package y25.book.ch1;
 
-public class P04_3 {
+public class P04_3_006 {
 
     public static void main(String[] args) {
         System.out.println(solution(15));
